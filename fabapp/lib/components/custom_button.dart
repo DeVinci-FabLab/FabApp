@@ -9,25 +9,23 @@ class CustomButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: ElevatedButton(
-        onPressed: onTap,
-        style: ElevatedButton.styleFrom(
-          backgroundColor: const Color(0xFF1331F5),
-          padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 20),
-          textStyle: const TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-          ),
+    return ElevatedButton(
+      onPressed: onTap,
+      style: ElevatedButton.styleFrom(
+        backgroundColor: const Color(0xff0a96b6),
+        padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+        textStyle: const TextStyle(
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
         ),
-        child: Text(text),
       ),
+      child: Text(text),
     );
   }
 }
 
 /// Defines a custom button with a state on or off
-class StateButton extends StatelessWidget { 
+class StateButton extends StatelessWidget {
   final VoidCallback onTap;
   final String text;
   final bool isOn;

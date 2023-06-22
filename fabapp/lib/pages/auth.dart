@@ -36,19 +36,15 @@ class LoginPage extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              const SizedBox(height: 50),
+              const SizedBox(height: 80),
               Image.asset(
                 'assets/img/logo_fablab.png',
-                width: 300,
-                height: 150,
+                width: 250,
+                height: 100,
               ),
-              const Text(
-                'Veuillez vous identifier pour accéder à l\'appli.',
-                style: TextStyle(fontSize: 20),
-              ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 40),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 400),
+                padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Divider(
                   thickness: 0.5,
                   color: Colors.grey[400],
@@ -60,13 +56,13 @@ class LoginPage extends StatelessWidget {
                 labelText: 'Identifiant',
                 obscureText: false,
               ),
-              //const SizedBox(height: 20),
+              const SizedBox(height: 20),
               CustomTextField(
                 controller: passwordController,
                 labelText: 'Mot de passe',
                 obscureText: true,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -93,9 +89,9 @@ class LoginPage extends StatelessWidget {
                 onTap: () => onSignIn(context),
                 text: 'Se connecter',
               ),
-              const SizedBox(height: 40),
+              const SizedBox(height: 60),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 400),
+                padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Row(
                   children: [
                     Expanded(
@@ -120,22 +116,22 @@ class LoginPage extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(height: 30),
+              const SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.asset(
                     'assets/img/logo_esilv.png',
                     width: 100,
-                    height: 100,
+                    height: 80,
                   ),
-                  const SizedBox(width: 20),
+                  const SizedBox(width: 10),
                   Image.asset(
                     'assets/img/logo_filamentum.png',
-                    width: 150,
-                    height: 100,
+                    width: 100,
+                    height: 80,
                   ),
-                  const SizedBox(width: 20),
+                  const SizedBox(width: 10),
                   Image.asset(
                     'assets/img/logo_dvic.png',
                     width: 100,

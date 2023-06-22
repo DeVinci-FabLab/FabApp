@@ -1,5 +1,6 @@
-import 'package:fabapp/pages/auth.dart';
 import 'package:flutter/material.dart';
+
+import 'package:fabapp/pages/auth.dart';
 
 void main() {
   runApp(const FabApp());
@@ -11,7 +12,7 @@ class FabApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'FabLab App',
-      //debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       home: LoginPage(),
     );
   }
