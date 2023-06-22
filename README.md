@@ -42,11 +42,3 @@ sequenceDiagram
 
 
 ```
-
-- faire transfert en json
---> structure interne type date de derniere update, bits de securité
-
-
-design --> figma --> neomorphisme ou  glass
-typo
-
