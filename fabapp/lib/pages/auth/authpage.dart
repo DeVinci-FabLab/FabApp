@@ -1,33 +1,12 @@
+import 'package:fabapp/constants/consts.dart';
 import 'package:flutter/material.dart';
 
-import 'package:fabapp/components/custom_textfield.dart';
-import 'package:fabapp/components/custom_button.dart';
+import 'package:fabapp/pages/auth/sign_in.dart';
+import 'package:fabapp/pages/auth/sign_up.dart';
+import 'package:fabapp/components/buttons.dart';
 
-class LoginPage extends StatelessWidget {
-  LoginPage({super.key});
-
-  final usernameController = TextEditingController();
-  final passwordController = TextEditingController();
-
-  void onSignIn(BuildContext context) {
-    if (usernameController.text == 'admin' &&
-        passwordController.text == 'secret') {
-      // Navigator.pushReplacement(
-      //   context,
-      //   MaterialPageRoute(
-      //     builder: (context) => const HomePage(),
-      //   ),
-      // );
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text(
-            'Veuillez réessayer. Nom d\'utilisateur ou mot de passe incorrect.',
-          ),
-        ),
-      );
-    }
-  }
+class AuthPage extends StatelessWidget {
+  const AuthPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -51,43 +30,27 @@ class LoginPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 40),
-              CustomTextField(
-                controller: usernameController,
-                labelText: 'Identifiant',
-                obscureText: false,
-              ),
               const SizedBox(height: 20),
-              CustomTextField(
-                controller: passwordController,
-                labelText: 'Mot de passe',
-                obscureText: true,
-              ),
-              const SizedBox(height: 20),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  GestureDetector(
-                    onTap: () => ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text(
-                          'id : admin\npassword : secret',
-                        ),
-                      ),
-                    ),
-                    child: const Text(
-                      'Mot de passe oublié ?',
-                      style: TextStyle(
-                        color: Color(0xFF0958EF),
-                        decoration: TextDecoration.underline,
-                      ),
-                    ),
+              LogButton(
+                onTap: () => Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SignInPage(),
                   ),
-                ],
+                ),
+                text: 'Se connecter',
+                color: Constants.devinciColor,
               ),
               const SizedBox(height: 20),
-              CustomButton(
-                onTap: () => onSignIn(context),
-                text: 'Se connecter',
+              LogButton(
+                onTap: () => Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SignUpPage(),
+                  ),
+                ),
+                text: 'S\'inscrire',
+                color: Constants.devinciColorLigth,
               ),
               const SizedBox(height: 60),
               Padding(
