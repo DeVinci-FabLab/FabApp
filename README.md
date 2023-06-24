@@ -13,32 +13,22 @@ sequenceDiagram
     else ID incorrect
         Backend->>APP: Invalid Access
     end
-
 ```
 
  ```mermaid
  %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': false}}}%%
     gitGraph:
     commit id:"setup"
-    commit id:"flutter setup"
-    branch Developpement
-    checkout Developpement
+    branch qa
+    checkout qa
+    commit id:"first qa commit"
+    branch dev
+    checkout dev
     commit id:"first dev commit"
-    branch Test
-    checkout Test
-    commit id:"first test commit"
-    commit id:"first API"
-    checkout Developpement
-    merge Test tag:"v0.1"
-    
-    checkout Test
-    commit id:"First Page connection"
-    commit id:"Chat Page"
-    checkout Developpement
-    merge Test tag:"v0.2"
+    branch feature_api
+    checkout feature_api
+    commit id:"first feature_api commit"
 
-    checkout main
-    merge Developpement tag:"v1"
 
 
 ```
