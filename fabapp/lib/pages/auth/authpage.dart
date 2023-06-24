@@ -15,13 +15,13 @@ class AuthPage extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              const SizedBox(height: 80),
+              const SizedBox(height: 100),
               Image.asset(
                 'assets/img/logo_fablab.png',
                 width: 250,
                 height: 100,
               ),
-              const SizedBox(height: 40),
+              const SizedBox(height: 50),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Divider(
@@ -29,8 +29,7 @@ class AuthPage extends StatelessWidget {
                   color: Colors.grey[400],
                 ),
               ),
-              const SizedBox(height: 40),
-              const SizedBox(height: 20),
+              const SizedBox(height: 50),
               LogButton(
                 onTap: () => Navigator.pushReplacement(
                   context,
@@ -52,7 +51,7 @@ class AuthPage extends StatelessWidget {
                 text: 'S\'inscrire',
                 color: Constants.devinciColorLigth,
               ),
-              const SizedBox(height: 60),
+              const SizedBox(height: 120),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Row(
