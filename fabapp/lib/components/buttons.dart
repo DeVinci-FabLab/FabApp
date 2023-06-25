@@ -121,12 +121,16 @@ class LogButton extends StatelessWidget {
   final VoidCallback onTap;
   final String text;
   final Color color;
-  const LogButton({super.key, required this.onTap, required this.text, required this.color});
+  const LogButton(
+      {super.key,
+      required this.onTap,
+      required this.text,
+      required this.color});
 
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return Container(
+    return SizedBox(
       width: size.width * .8,
       child: ClipRRect(
         borderRadius: BorderRadius.circular(30),

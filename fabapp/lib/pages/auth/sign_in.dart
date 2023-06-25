@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:fabapp/components/textfields.dart';
 import 'package:fabapp/components/buttons.dart';
 
+import 'package:fabapp/constants/consts.dart';
+
 class SignInPage extends StatelessWidget {
   SignInPage({super.key});
 
@@ -10,7 +12,7 @@ class SignInPage extends StatelessWidget {
   final passwordController = TextEditingController();
 
   void onSignIn(BuildContext context) {
-    // ! to be replaced by a call to the API
+    // TODO to be replaced by a call to the API
     if (usernameController.text == 'admin' &&
         passwordController.text == 'secret') {
       // Navigator.pushReplacement(
@@ -52,16 +54,26 @@ class SignInPage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 40),
-              CustomTextField(
-                controller: usernameController,
-                labelText: 'Identifiant',
-                obscureText: false,
+              AuthContainer(
+                child: AuthTextFieldID(
+                  hintText: 'Identifiant',
+                  icon: Icon(
+                    Icons.person,
+                    color: Constants.devinciColor,
+                  ),
+                  controller: usernameController,
+                ),
               ),
               const SizedBox(height: 20),
-              CustomTextField(
-                controller: passwordController,
-                labelText: 'Mot de passe',
-                obscureText: true,
+              AuthContainer(
+                child: AuthTextFieldPsd(
+                  hintText: 'Mot de passe',
+                  icon: Icon(
+                    Icons.lock,
+                    color: Constants.devinciColor,
+                  ),
+                  controller: passwordController,
+                ),
               ),
               const SizedBox(height: 20),
               Row(
