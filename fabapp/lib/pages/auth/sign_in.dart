@@ -1,3 +1,4 @@
+import 'package:fabapp/pages/auth/partners.dart';
 import 'package:flutter/material.dart';
 
 import 'package:fabapp/components/textfields.dart';
@@ -103,55 +104,7 @@ class SignInPage extends StatelessWidget {
                 text: 'Se connecter',
               ),
               const SizedBox(height: 60),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: Divider(
-                        thickness: 0.5,
-                        color: Colors.grey[400],
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 10),
-                      child: Text(
-                        'Nos partenaires',
-                        style: TextStyle(color: Colors.grey[700]),
-                      ),
-                    ),
-                    Expanded(
-                      child: Divider(
-                        thickness: 0.5,
-                        color: Colors.grey[400],
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 20),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Image.asset(
-                    'assets/img/logo_esilv.png',
-                    width: 100,
-                    height: 80,
-                  ),
-                  const SizedBox(width: 10),
-                  Image.asset(
-                    'assets/img/logo_filamentum.png',
-                    width: 100,
-                    height: 80,
-                  ),
-                  const SizedBox(width: 10),
-                  Image.asset(
-                    'assets/img/logo_dvic.png',
-                    width: 100,
-                    height: 100,
-                  ),
-                ],
-              ),
+              const Partners(),
             ],
           ),
         ),
