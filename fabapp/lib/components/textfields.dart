@@ -53,8 +53,9 @@ class AuthContainer extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 20),
       width: size.width * 0.8,
       decoration: BoxDecoration(
-          color: Constants.devinciColorLigth,
-          borderRadius: BorderRadius.circular(30)),
+        color: Constants.devinciColorLigth,
+        borderRadius: BorderRadius.circular(30),
+      ),
       child: child,
     );
   }

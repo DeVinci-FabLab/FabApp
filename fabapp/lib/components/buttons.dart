@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart' hide BoxDecoration, BoxShadow;
 
 import 'package:flutter_inset_box_shadow/flutter_inset_box_shadow.dart';
@@ -147,6 +149,35 @@ class LogButton extends StatelessWidget {
           child: Text(text),
         ),
       ),
+    );
+  }
+}
+
+class ClassicRoundButton extends StatelessWidget {
+  final VoidCallback onTap;
+  final String text;
+
+  const ClassicRoundButton(
+      {super.key, required this.onTap, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton(
+      onPressed: onTap,
+      style: ElevatedButton.styleFrom(
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.all(
+            Radius.circular(30),
+          ),
+        ),
+        backgroundColor: const Color(0xFF65599d),
+        padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
+        textStyle: const TextStyle(
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+      child: Text(text),
     );
   }
 }

@@ -1,13 +1,11 @@
-import 'package:fabapp/pages/auth/partners.dart';
 import 'package:flutter/material.dart';
 
 import 'package:fabapp/components/textfields.dart';
 import 'package:fabapp/components/buttons.dart';
-
 import 'package:fabapp/constants/consts.dart';
 
-class SignInPage extends StatelessWidget {
-  SignInPage({super.key});
+class SignInFields extends StatelessWidget {
+  SignInFields({super.key});
 
   final usernameController = TextEditingController();
   final passwordController = TextEditingController();
@@ -37,76 +35,36 @@ class SignInPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Center(
-          child: Column(
-            children: [
-              const SizedBox(height: 80),
-              Image.asset(
-                'assets/img/logo_fablab.png',
-                width: 250,
-                height: 100,
-              ),
-              const SizedBox(height: 40),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Divider(
-                  thickness: 0.5,
-                  color: Colors.grey[400],
+        child: Column(
+          children: [
+            const SizedBox(height: 50),
+            AuthContainer(
+              child: AuthTextFieldID(
+                hintText: 'Identifiant',
+                icon: Icon(
+                  Icons.person,
+                  color: Constants.devinciColor,
                 ),
+                controller: usernameController,
               ),
-              const SizedBox(height: 40),
-              AuthContainer(
-                child: AuthTextFieldID(
-                  hintText: 'Identifiant',
-                  icon: Icon(
-                    Icons.person,
-                    color: Constants.devinciColor,
-                  ),
-                  controller: usernameController,
+            ),
+            const SizedBox(height: 20),
+            AuthContainer(
+              child: AuthTextFieldPsd(
+                hintText: 'Mot de passe',
+                icon: Icon(
+                  Icons.lock,
+                  color: Constants.devinciColor,
                 ),
+                controller: passwordController,
               ),
-              const SizedBox(height: 20),
-              AuthContainer(
-                child: AuthTextFieldPsd(
-                  hintText: 'Mot de passe',
-                  icon: Icon(
-                    Icons.lock,
-                    color: Constants.devinciColor,
-                  ),
-                  controller: passwordController,
-                ),
-              ),
-              const SizedBox(height: 20),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  GestureDetector(
-                    onTap: () => ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text(
-                          'id : admin\npassword : secret',
-                        ),
-                      ),
-                    ),
-                    child: const Text(
-                      'Mot de passe oublié ?',
-                      style: TextStyle(
-                        color: Color(0xFF65599d),
-                        decoration: TextDecoration.underline,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 20),
-              ClassicButton(
-                onTap: () => onSignIn(context),
-                text: 'Se connecter',
-              ),
-              const SizedBox(height: 60),
-              const Partners(),
-            ],
-          ),
+            ),
+            const SizedBox(height: 30),
+            ClassicRoundButton(
+              onTap: () => onSignIn(context),
+              text: 'Se connecter',
+            ),
+          ],
         ),
       ),
     );
