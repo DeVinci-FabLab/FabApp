@@ -1,3 +1,4 @@
+import 'package:fabapp/pages/auth/sign_up.dart';
 import 'package:flutter/material.dart';
 
 import 'package:fabapp/pages/auth/partners.dart';
@@ -25,7 +26,6 @@ class AuthPage extends StatelessWidget {
     );
   }
 }
-
 
 class SignInUpMenu extends StatefulWidget {
   const SignInUpMenu({super.key});
@@ -57,7 +57,7 @@ class _SignInUpMenuState extends State<SignInUpMenu>
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 60),
+        padding: const EdgeInsets.symmetric(horizontal: 40),
         child: SizedBox(
           height: 380,
           child: Column(
@@ -65,12 +65,13 @@ class _SignInUpMenuState extends State<SignInUpMenu>
               Container(
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
-                    color: Constants.devinciColorLigth,
-                    borderRadius: BorderRadius.circular(10)),
+                  color: Constants.devinciColorLigth,
+                  borderRadius: BorderRadius.circular(20),
+                ),
                 child: Column(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.all(8),
+                      padding: const EdgeInsets.all(7),
                       child: TabBar(
                         unselectedLabelColor: Colors.white,
                         labelColor: Colors.black,
@@ -78,7 +79,7 @@ class _SignInUpMenuState extends State<SignInUpMenu>
                         indicatorWeight: 2,
                         indicator: BoxDecoration(
                           color: Colors.white,
-                          borderRadius: BorderRadius.circular(9),
+                          borderRadius: BorderRadius.circular(20),
                         ),
                         controller: tabController,
                         tabs: const [
@@ -101,11 +102,7 @@ class _SignInUpMenuState extends State<SignInUpMenu>
                   controller: tabController,
                   children: [
                     SignInFields(),
-                    const SizedBox(
-                      height: 50,
-                      width: 50,
-                      child: Text('page d\'inscription'),
-                    ),
+                    SignUpFields(),
                   ],
                 ),
               )

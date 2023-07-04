@@ -108,7 +108,7 @@ class _AuthTextFieldPsdState extends State<AuthTextFieldPsd> {
   Widget build(BuildContext context) {
     return TextField(
       controller: widget.controller,
-      obscureText: obscureText, // Utilisez la valeur de l'état du widget
+      obscureText: obscureText,
       decoration: InputDecoration(
         icon: widget.icon,
         hintText: widget.hintText,
@@ -116,12 +116,11 @@ class _AuthTextFieldPsdState extends State<AuthTextFieldPsd> {
         suffixIcon: IconButton(
           onPressed: () {
             setState(() {
-              // Mettre à jour l'état de la visibilité du texte
               obscureText = !obscureText;
             });
           },
           icon: Icon(
-            obscureText ? Icons.visibility : Icons.visibility_off,
+            obscureText ? Icons.visibility_off : Icons.visibility,
           ),
         ),
       ),

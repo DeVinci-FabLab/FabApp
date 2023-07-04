@@ -13,15 +13,7 @@ class LogoHome extends StatelessWidget {
           width: 250,
           height: 100,
         ),
-        const SizedBox(height: 30),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
-          child: Divider(
-            thickness: 0.5,
-            color: Colors.grey[400],
-          ),
-        ),
-        const SizedBox(height: 20),
+        const SizedBox(height: 40),
       ],
     );
   }

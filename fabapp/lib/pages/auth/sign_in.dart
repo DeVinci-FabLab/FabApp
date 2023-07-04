@@ -7,13 +7,12 @@ import 'package:fabapp/constants/consts.dart';
 class SignInFields extends StatelessWidget {
   SignInFields({super.key});
 
-  final usernameController = TextEditingController();
-  final passwordController = TextEditingController();
+  final idController = TextEditingController();
+  final psdController = TextEditingController();
 
   void onSignIn(BuildContext context) {
     // TODO to be replaced by a call to the API
-    if (usernameController.text == 'admin' &&
-        passwordController.text == 'secret') {
+    if (idController.text == 'admin' && psdController.text == 'secret') {
       // Navigator.pushReplacement(
       //   context,
       //   MaterialPageRoute(
@@ -37,7 +36,7 @@ class SignInFields extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            const SizedBox(height: 50),
+            const SizedBox(height: 60),
             AuthContainer(
               child: AuthTextFieldID(
                 hintText: 'Identifiant',
@@ -45,7 +44,7 @@ class SignInFields extends StatelessWidget {
                   Icons.person,
                   color: Constants.devinciColor,
                 ),
-                controller: usernameController,
+                controller: idController,
               ),
             ),
             const SizedBox(height: 20),
@@ -56,10 +55,33 @@ class SignInFields extends StatelessWidget {
                   Icons.lock,
                   color: Constants.devinciColor,
                 ),
-                controller: passwordController,
+                controller: psdController,
               ),
             ),
             const SizedBox(height: 30),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                GestureDetector(
+                  onTap: () => ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text(
+                        'id : admin\npassword : secret',
+                      ),
+                    ),
+                  ),
+                  child: const Text(
+                    'Mot de passe oublié ?',
+                    style: TextStyle(
+                      color: Color(0xFF65599d),
+                      decoration: TextDecoration.underline,
+                      fontSize: 14,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 20),
             ClassicRoundButton(
               onTap: () => onSignIn(context),
               text: 'Se connecter',

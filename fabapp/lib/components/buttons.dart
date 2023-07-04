@@ -1,10 +1,7 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart' hide BoxDecoration, BoxShadow;
 
 import 'package:flutter_inset_box_shadow/flutter_inset_box_shadow.dart';
 
-/// Defines a classic button for general purpose
 class ClassicButton extends StatelessWidget {
   final VoidCallback onTap;
   final String text;
@@ -76,7 +73,6 @@ class _NeoMorphSwitchState extends State<NeoMorphSwitch> {
   }
 }
 
-/// Defines a custom button with a state on or off
 class StateButton extends StatelessWidget {
   final VoidCallback onTap;
   final String text;
@@ -173,7 +169,7 @@ class ClassicRoundButton extends StatelessWidget {
         backgroundColor: const Color(0xFF65599d),
         padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
         textStyle: const TextStyle(
-          fontSize: 20,
+          fontSize: 18,
           fontWeight: FontWeight.bold,
         ),
       ),
