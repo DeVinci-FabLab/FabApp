@@ -50,6 +50,14 @@ struct Article {
     published_on: Option<NaiveDateTime>,
 }
 
+#[derive(Serialize, Deserialize)]
+struct ErrorResponse {
+    #[serde(rename = "error")]
+    error_code: String,
+    #[serde(rename = "message")]
+    error_message: String,
+}
+
 #[post("/user")]
 async fn create_user(state: Data<AppState>, body: Json<CreateUserBody>) -> impl Responder {
     let user: CreateUserBody = body.into_inner();
@@ -77,11 +85,14 @@ async fn create_user(state: Data<AppState>, body: Json<CreateUserBody>) -> impl 
             HttpResponse::Ok().json(user)
         }
         Err(error) => {
-            println!("{}", error.as_database_error().unwrap().to_string());
+            println!("{}", error.as_database_error().unwrap().message().to_string());
             println!("{}", error.as_database_error().unwrap().code().unwrap());
-            
-
-            HttpResponse::InternalServerError().json(error.to_string()) //format!("{:?}", error)
+            let error_response= ErrorResponse {
+                error_code: error.as_database_error().unwrap().code().unwrap().to_string(),
+                error_message: error.as_database_error().unwrap().message().to_string(),
+            };
+            HttpResponse::Conflict().json(error_response)
+            //HttpResponse::Unauthorized().json("Unable to create user")
         }
     }
 }
@@ -101,7 +112,7 @@ async fn basic_auth(state: Data<AppState>, credentials: BasicAuth) -> impl Respo
         None => HttpResponse::Unauthorized().json("Must provide username and password"),
         Some(pass) => {
             match sqlx::query_as::<_, AuthUser>(
-                "SELECT id, username, password FROM users WHERE username = $1",
+                "SELECT id, username, password FROM users WHERE username = $1 OR email = $1",
             )
             .bind(username.to_string())
             .fetch_one(&state.db)
