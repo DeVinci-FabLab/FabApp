@@ -10,6 +10,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   flutter_inset_box_shadow: ^1.0.8
+  http: ^1.1.0
 
 dev_dependencies:
   flutter_test:

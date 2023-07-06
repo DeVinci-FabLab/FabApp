@@ -12,4 +12,7 @@ class Constants {
 
   static Color iimColor = const Color(0xFFf1890a);
   static Color iimColorLigth = const Color.fromARGB(255, 239, 170, 66);
+
+  static String uriSignIn = 'http://192.168.134.239:8080/auth';
+  static String uriSignUp = ' ';
 }

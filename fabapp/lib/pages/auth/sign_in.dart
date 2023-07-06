@@ -1,33 +1,60 @@
+import 'package:fabapp/api/api_service.dart';
+import 'package:fabapp/models/login_request.dart';
 import 'package:flutter/material.dart';
 
 import 'package:fabapp/components/textfields.dart';
 import 'package:fabapp/components/buttons.dart';
 import 'package:fabapp/constants/consts.dart';
 
-class SignInFields extends StatelessWidget {
-  SignInFields({super.key});
+class SignInFields extends StatefulWidget {
+  const SignInFields({super.key});
 
+  @override
+  State<SignInFields> createState() => _SignInFieldsState();
+}
+
+class _SignInFieldsState extends State<SignInFields> {
   final idController = TextEditingController();
   final psdController = TextEditingController();
 
+  late LoginRequestModel requestModel;
+
   void onSignIn(BuildContext context) {
-    // TODO to be replaced by a call to the API
-    if (idController.text == 'admin' && psdController.text == 'secret') {
-      // Navigator.pushReplacement(
-      //   context,
-      //   MaterialPageRoute(
-      //     builder: (context) => const HomePage(),
-      //   ),
-      // );
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text(
-            'Veuillez réessayer. Nom d\'utilisateur ou mot de passe incorrect.',
-          ),
-        ),
-      );
-    }
+    requestModel.email = idController.text;
+    requestModel.password = psdController.text;
+    ApiService apiService = ApiService();
+    apiService.login(requestModel).then(
+      (value) {
+        if (value.token == 'RowNotFound') {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text(
+                'Veuillez réessayer. Nom d\'utilisateur ou mot de passe incorrect.',
+                style: TextStyle(fontSize: 18),
+              ),
+            ),
+          );
+        } else {
+          print(value.token);
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const HomePage(),
+            ),
+          );
+        }
+      },
+    );
+
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    requestModel = LoginRequestModel(
+      email: idController.text,
+      password: psdController.text,
+    );
   }
 
   @override
@@ -90,5 +117,14 @@ class SignInFields extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Text('data');
   }
 }
