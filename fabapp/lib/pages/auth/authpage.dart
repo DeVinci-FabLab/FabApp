@@ -6,35 +6,14 @@ import 'package:fabapp/pages/auth/sign_in.dart';
 import 'package:fabapp/constants/consts.dart';
 import 'package:fabapp/pages/auth/logohome.dart';
 
-class AuthPage extends StatelessWidget {
+class AuthPage extends StatefulWidget {
   const AuthPage({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: SafeArea(
-        child: Center(
-          child: Column(
-            children: [
-              LogoHome(),
-              SignInUpMenu(),
-              Partners(),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+  State<AuthPage> createState() => _AuthPageState();
 }
 
-class SignInUpMenu extends StatefulWidget {
-  const SignInUpMenu({super.key});
-
-  @override
-  State<SignInUpMenu> createState() => _SignInUpMenuState();
-}
-
-class _SignInUpMenuState extends State<SignInUpMenu>
+class _AuthPageState extends State<AuthPage>
     with SingleTickerProviderStateMixin {
   late TabController tabController;
 
@@ -55,57 +34,69 @@ class _SignInUpMenuState extends State<SignInUpMenu>
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 40),
-        child: SizedBox(
-          height: 380,
+    return Scaffold(
+      body: SafeArea(
+        child: Center(
           child: Column(
             children: [
-              Container(
-                width: MediaQuery.of(context).size.width,
-                decoration: BoxDecoration(
-                  color: Constants.devinciColorLigth,
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                child: Column(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(7),
-                      child: TabBar(
-                        unselectedLabelColor: Colors.white,
-                        labelColor: Colors.black,
-                        indicatorColor: Colors.white,
-                        indicatorWeight: 2,
-                        indicator: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(20),
+              const LogoHome(),
+              SingleChildScrollView(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 40),
+                  child: SizedBox(
+                    height: 380,
+                    child: Column(
+                      children: [
+                        Container(
+                          width: MediaQuery.of(context).size.width,
+                          decoration: BoxDecoration(
+                            color: Constants.devinciColorLigth,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.all(7),
+                                child: TabBar(
+                                  unselectedLabelColor: Colors.white,
+                                  labelColor: Colors.black,
+                                  indicatorColor: Colors.white,
+                                  indicatorWeight: 2,
+                                  indicator: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(20),
+                                  ),
+                                  controller: tabController,
+                                  tabs: const [
+                                    Tab(
+                                      text: 'Connexion',
+                                      height: 30,
+                                    ),
+                                    Tab(
+                                      text: 'Inscription',
+                                      height: 30,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
-                        controller: tabController,
-                        tabs: const [
-                          Tab(
-                            text: 'Connexion',
-                            height: 30,
+                        Expanded(
+                          child: TabBarView(
+                            controller: tabController,
+                            children: [
+                              const SignInFields(),
+                              SignUpFields(),
+                            ],
                           ),
-                          Tab(
-                            text: 'Inscription',
-                            height: 30,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
-                  ],
+                  ),
                 ),
               ),
-              Expanded(
-                child: TabBarView(
-                  controller: tabController,
-                  children: [
-                    SignInFields(),
-                    SignUpFields(),
-                  ],
-                ),
-              )
+              const Partners(),
             ],
           ),
         ),

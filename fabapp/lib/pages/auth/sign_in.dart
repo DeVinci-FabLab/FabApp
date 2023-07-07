@@ -35,17 +35,17 @@ class _SignInFieldsState extends State<SignInFields> {
             ),
           );
         } else {
-          print(value.token);
-          Navigator.pushReplacement(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const HomePage(),
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(
+                'Bien authentifié ! token : ${value.token}',
+                style: const TextStyle(fontSize: 18),
+              ),
             ),
           );
         }
       },
     );
-
   }
 
   @override

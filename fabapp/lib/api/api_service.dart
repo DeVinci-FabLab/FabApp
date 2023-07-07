@@ -7,9 +7,10 @@ class ApiService {
   Future<LoginResponseModel> login(LoginRequestModel requestModel) async {
     final response = await http.get(Uri.parse(Constants.uriSignIn),
         headers: requestModel.toJson());
-    print(requestModel.toJson());
-    if (response.statusCode == 200 || response.statusCode == 400 || response.statusCode == 500) { // 500 pour code erreur
+    if (response.statusCode == 200 || response.statusCode == 400) {
       return LoginResponseModel.fromJson(response.body);
+    } else if (response.statusCode == 500) {
+      return LoginResponseModel();
     } else {
       throw Exception('Failed to load data');
     }
