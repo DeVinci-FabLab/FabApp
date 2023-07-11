@@ -19,11 +19,9 @@ use jwt::VerifyWithKey;
 use serde::{Deserialize, Serialize};
 use sha2::Sha256;
 
-mod model;
-use model::services::{basic_auth, create_article, create_user};
-
+mod email;
 mod api;
-use api::user::present;
+use api::connection::{basic_auth, create_user};
 
 pub struct AppState {
     db: Pool<Postgres>,
@@ -79,11 +77,9 @@ async fn main() -> std::io::Result<()> {
             .app_data(Data::new(AppState { db: pool.clone() }))
             .service(basic_auth)
             .service(create_user)
-            .service(present)
             .service(
                 web::scope("")
                     .wrap(bearer_middleware)
-                    .service(create_article),
             )
     })
         .bind(("0.0.0.0", 8080))?
