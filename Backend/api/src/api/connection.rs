@@ -8,14 +8,14 @@ use crate::{AppState, TokenClaims};
 use sqlx::{self};
 use jwt::SignWithKey;
 use argonautica::{Hasher, Verifier};
-
-use super::models::users_structs::{get_error_response, CreateUserBody, UserNoPassword, AuthUser};
-
+use rand::Rng;
+use super::models::users_structs::{get_error_response, get_response, CreateUserBody, UserNoPassword, AuthUser};
+use crate::email::email::send_email;
 
 #[post("/user")]
 async fn create_user(state: Data<AppState>, body: Json<CreateUserBody>) -> impl Responder {
+    println!("Create user?");
     let user: CreateUserBody = body.into_inner();
-
     let hash_secret = std::env::var("HASH_SECRET").expect("HASH_SECRET must be set!");
     let mut hasher = Hasher::default();
     let hash = hasher
@@ -36,8 +36,14 @@ async fn create_user(state: Data<AppState>, body: Json<CreateUserBody>) -> impl 
     {
         Ok(user) => {
             println!("User created successfully");
-
-            HttpResponse::Ok().json(user)
+            //generate a random number
+ 
+            let random_number = rand::thread_rng().gen_range(0..1000000);
+            println!("Random number: {}", random_number);
+            //send email
+            send_email(user.email.clone(), random_number);
+            let response = get_response("00000".to_string(), "User created successfully".to_string());
+            HttpResponse::Ok().json(response)
         }
         Err(error) => {
             let error_response = get_error_response(error);

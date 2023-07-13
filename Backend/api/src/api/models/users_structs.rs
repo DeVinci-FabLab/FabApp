@@ -12,6 +12,13 @@ pub fn get_error_response(error: sqlx::Error) -> Response {
     }
 }
 
+pub fn get_response(code: String, message: String) -> Response {
+    Response {
+        code,
+        message,
+    }
+}
+
 #[derive(Deserialize)]
 pub struct CreateUserBody {
     pub username: String,
