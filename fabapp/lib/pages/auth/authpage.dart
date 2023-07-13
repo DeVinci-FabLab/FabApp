@@ -85,8 +85,8 @@ class _AuthPageState extends State<AuthPage>
                         Expanded(
                           child: TabBarView(
                             controller: tabController,
-                            children: [
-                              const SignInFields(),
+                            children: const [
+                              SignInFields(),
                               SignUpFields(),
                             ],
                           ),

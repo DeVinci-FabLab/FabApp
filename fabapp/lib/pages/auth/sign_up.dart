@@ -20,35 +20,40 @@ class _SignUpFieldsState extends State<SignUpFields> {
   late SignUpRequestModel requestModel;
 
   void createAccount() {
-    requestModel.username = usernameController.text;
-    requestModel.email = emailController.text;
-    requestModel.password = passwordController.text;
-    print(requestModel.toJson()); // TODO : supprimer si vériication ok
+    // requestModel.username = usernameController.text;
+    // requestModel.email = emailController.text;
+    // requestModel.password = passwordController.text;
+    requestModel.username = 'morgan';
+    requestModel.email = 'yann.vidamment@edu.devinci.fr';
+    requestModel.password = 'TGfc32';
+    print(requestModel.toJson()); // TODO : supprimer si vérification ok
     ApiService apiService = ApiService();
-    apiService.signUp(requestModel).then(
-      (value) {
-        if (value.email == 'RowNotFound') { // TODO : remplacer gestion de l'erreur par qqch de fonctionnel
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text(
-                'Veuillez réessayer. Nom d\'utilisateur ou mot de passe incorrect.',
-                style: TextStyle(fontSize: 18),
-              ),
-            ),
-          );
-        } else {
-          ScaffoldMessenger.of(context).showSnackBar( // TODO : remplacer par les étapes de création de compte
-            const SnackBar(
-              content: Text(
-                'Bien authentifié !',
-                style: TextStyle(fontSize: 18),
-              ),
-            ),
-          );
-        }
-      },
-    );
-    
+    apiService.signUp(requestModel);
+    // apiService.signUp(requestModel).then(
+    //   (value) {
+    //     if (value.code != '0000') {
+    //       // TODO : remplacer gestion de l'erreur par qqch de fonctionnel
+    //       ScaffoldMessenger.of(context).showSnackBar(
+    //         const SnackBar(
+    //           content: Text(
+    //             'Veuillez réessayer. Nom d\'utilisateur ou mot de passe incorrect.',
+    //             style: TextStyle(fontSize: 18),
+    //           ),
+    //         ),
+    //       );
+    //     } else {
+    //       ScaffoldMessenger.of(context).showSnackBar(
+    //         // TODO : remplacer par les étapes de création de compte
+    //         const SnackBar(
+    //           content: Text(
+    //             'création de compte réussie !',
+    //             style: TextStyle(fontSize: 18),
+    //           ),
+    //         ),
+    //       );
+    //     }
+    //   },
+    // );
   }
 
   @override
@@ -73,7 +78,7 @@ class _SignUpFieldsState extends State<SignUpFields> {
               Icons.person,
               color: Constants.devinciColor,
             ),
-            controller: emailController,
+            controller: usernameController,
           ),
         ),
         const SizedBox(height: 20),

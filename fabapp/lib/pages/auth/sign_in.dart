@@ -23,7 +23,7 @@ class _SignInFieldsState extends State<SignInFields> {
     requestModel.email = idController.text;
     requestModel.password = psdController.text;
     ApiService apiService = ApiService();
-    apiService.login(requestModel).then(
+    apiService.signIn(requestModel).then(
       (value) {
         if (value.token == 'RowNotFound') {
           ScaffoldMessenger.of(context).showSnackBar(
@@ -117,14 +117,5 @@ class _SignInFieldsState extends State<SignInFields> {
         ),
       ),
     );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Text('data');
   }
 }
