@@ -19,9 +19,13 @@ use jwt::VerifyWithKey;
 use serde::{Deserialize, Serialize};
 use sha2::Sha256;
 
+
+//decllare all mods
+mod utilities;
 mod email;
 mod api;
 use api::connection::{basic_auth, create_user};
+
 
 pub struct AppState {
     db: Pool<Postgres>,
