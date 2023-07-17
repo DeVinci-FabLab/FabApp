@@ -1,28 +1,25 @@
-use std::env;
-use actix::Response;
 use dotenv::dotenv;
 use lettre::transport::smtp::authentication::Credentials;
 use lettre::{SmtpTransport, Transport, Message};
-use std::io;
 use std::collections::HashMap;
 
 
-use crate::api::models::users_structs::{get_error_response, get_response, ResponseCustom};
+use crate::api::models::users_structs::{get_response, ResponseCustom};
 use crate::utilities::structs::EmailPassword;
-use crate::utilities::env::{read_env_value, read_env_values};
+use crate::utilities::env::read_env_values;
 
 
 
-pub fn send_email(sent_email: String, number: i32) -> Result<ResponseCustom, io::Error> {
+pub fn send_email(sent_email: String, number: i32) -> Result<ResponseCustom, ResponseCustom> {
     // Load the dotenv file
     dotenv().ok();
     // Check if env load
-    let LIST: &[&str] = &["EMAIL", "PASSWORD"];
-    let ENV_VALUES: HashMap<&str, String> = read_env_values(LIST);
+    let list: &[&str] = &["EMAIL", "PASSWORD"];
+    let env_values: HashMap<&str, String> = read_env_values(list);
     
-    let email_identifier = match EmailPassword::from_dictionary(ENV_VALUES) {
+    let email_identifier = match EmailPassword::from_dictionary(env_values) {
         Some(identifier) => identifier,
-        None => return Err(io::Error::new(io::ErrorKind::Other, "Email identifier not set")),
+        None => return Err(get_response(500u32, "Environements Values not set".to_string())), 
     };
 
     let from_email_string = format!("ME <{}>", email_identifier.email);
@@ -46,8 +43,8 @@ pub fn send_email(sent_email: String, number: i32) -> Result<ResponseCustom, io:
         .build();
 
     match mailer.send(&email_message) {
-        Ok(_) => Ok((get_response(200u32, "Email sent successfully".to_string()))),
-        Err(_) => Err(io::Error::new(io::ErrorKind::InvalidData, "Failed to send email")),
+        Ok(_) => Ok(get_response(200u32, "Email sent successfully".to_string())),
+        Err(_) => Err(get_response(500u32, "Failed to send email".to_string())),
         //get_response(409, "Failed to send email".to_string()),
 
     }

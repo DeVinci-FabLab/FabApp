@@ -18,10 +18,12 @@ async fn create_user(state: Data<AppState>, body: Json<CreateUserBody>) -> impl 
     //check if email exists
     let user: CreateUserBody = body.into_inner();
     let random_number = rand::thread_rng().gen_range(0..1000000);
-    println!("{:?}",send_email(user.email.clone(), random_number));
-
-
-
+    let received_email = send_email(user.email.clone(), random_number);
+    // Handle the error case here
+    if let Err(error) = received_email {
+        // Handle the error case here
+        return HttpResponse::Conflict().json(error);
+    }
 
     let hash_secret = std::env::var("HASH_SECRET").expect("HASH_SECRET must be set!");
     let mut hasher = Hasher::default();
@@ -42,12 +44,12 @@ async fn create_user(state: Data<AppState>, body: Json<CreateUserBody>) -> impl 
     .await
     {
         Ok(user) => {
-            println!("User created successfully");
+            let welcome_string = format!("User {} created successfully", user.username);
             //generate a random number
  
             println!("Random number: {}", random_number);
             //send email
-            let response = get_response(0u32, "User created successfully".to_string());
+            let response = get_response(0u32,welcome_string.to_string());
             HttpResponse::Ok().json(response)
         }
         Err(error) => {

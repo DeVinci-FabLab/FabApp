@@ -78,6 +78,7 @@ pub struct ResponseCustom {
     #[serde(rename = "message")]
     pub message: String,
 }
+
 impl std::fmt::Debug for ResponseCustom {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         f.debug_struct("ResponseCustom")
