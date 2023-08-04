@@ -1,5 +1,4 @@
 DROP TABLE IF EXISTS users_connection_code;
-DROP TABLE IF EXISTS articles;
 DROP TABLE IF EXISTS users;
 
 
@@ -12,16 +11,6 @@ CREATE TABLE users (
     info JSONB DEFAULT '{}'::JSONB,
     CONSTRAINT valid_username UNIQUE (username), CHECK (NOT (username ~* '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')),
     CONSTRAINT valid_email UNIQUE (email), CHECK (email ~* '^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$')
-);
-
-
-CREATE TABLE articles (
-    id SERIAL PRIMARY KEY,
-    title VARCHAR(255),
-    content TEXT,
-    published_by INT,
-    published_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT fk_articles_users FOREIGN KEY (published_by) REFERENCES users (id)
 );
 
 --create table for users connection code

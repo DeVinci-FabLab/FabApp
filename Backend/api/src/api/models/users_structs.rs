@@ -45,6 +45,7 @@ pub struct CreateUserBody {
 
 #[derive(Serialize, FromRow)]
 pub struct UserNoPassword {
+    pub id: i32,
     pub username: String,
     pub email: String,
 }
