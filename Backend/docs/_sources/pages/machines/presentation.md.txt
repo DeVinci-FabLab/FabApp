@@ -1,0 +1,82 @@
+# Présentation générales
+
+## Imprimantes 3D
+
+Il existe deux types d'imprimantes (en très grosse majorité), les imprimantes à résine et à filamment.
+Nous ne nous intéresserons uniquement à l'imriimante à filamment/extrusion
+
+Les imprimantes produits / projet:
+Ce que l'on cherche dans une imprimante à filamment, est l'adaptabilité, et cela se trouve souvent pas la customisation de sa machine.
+Il peut être nécéssaire d'imprimer avec une plus grossse buse ou à l'inverse la réduire et gagner de la précision.
+
+```{attention}
+:title: Utilisation d'une imprimante 3D
+**Une imprimante 3D demande**:
+- Du temps, il faut la réparer l'améliorer, et comprendre comment elle fonctionne
+- De la cnnaissance, car les réparations ne sont pas toujours simples
+- Connaite les limites de l'imprimante
+```
+
+
+```{success}
+:title: Qualités d'une imprimante (non exaustif)
+- Open-Source
+- Vitesse
+- Matériel simple d'utilisation
+- Réparation simplifiée et accessible
+- Imprimante avec une grosse communauté
+- (Bon slicer)
+```
+
+```{failure}
+:title: Ce qui est rédibitoire
+- Imprimane produit
+	- Imprimante très difficile à réparer et qui nécessite l'utilisation d'un ouvrier extérieur
+- (Bruit)
+- Piècec détachée propriétaire et trop cher
+```
+
+
+## Découpeuse Laser
+Une découpeuse Laser est un outil permettant d'utiliser différents matériaux:
+- bois
+- plexiglass
+- aluminium
+
+```{attention}
+:title: Attention contrainte découpeuse laser
+
+- Découpage en 2D uniquement,
+- Surface de découpe élevé, mais épaisseur faible (1 à 5 mm)
+```
+exemple travail découpseuse laser:
+
+![Alt text](https://i.pinimg.com/originals/a5/31/ee/a531ee0064dfbb1b29f1882450b48c32.jpg)
+
+## CNC à PCB
+
+```{attention}
+:title: Utilité de la CNC
+**Je pense qu'une cnc à pcb est nécessaire**, elle permet:
+- Une **indépendance des constructeurs** de pcb et d'être libre sur les contraintes
+- Une **indépendance temporelle** et de ne pas avoir à attendre la livraison du pcb qui peut prendre deux semaines.
+```
+
+### PCB
+Un circuit imprimé est un support, permettant de relier électriquement un ensemble de composants électroniques entre eux, dans le but de réaliser un circuit électronique complexe.
+Pour créer un PCB nous avons besoin d'un CNC
+
+## CNC
+
+Une CNC est une machine qui à l'aide d'un axe (X,Y) ou (X,Y,Z) permet d'utiliser ces outils pour graver, dépouper, déposer du filamment, ect.
+Une CNC à pcb, permet à l'aide d'un axe (X,Y) de graver une plaque et de déposer de l'étain ou alors de forcer la réaction chimique de certaine plaque.
+
+Ainsi on peut distinguer deux types de CNC à PCB, les mécaniques et les chimiques.
+
+<ins>**Ordre de prix:**</ins>
+- 3500€ cnc basique 
+- 5000€ cnc un peu plus avancé commen placement étain ect
+
+| Modélisation du pcb (ici en 3D) | Exemple de rendu de PCB possible |
+| ------- | ------- |
+| ![ PCB_Modelisation](https://www.zuken.com/en/wp-content/uploads/sites/2/2018/10/cr-8000-2015-featured-img.jpg)| ![ PCB_Example](https://wegstr.com/image/cache/catalog/vyrobky/23-1920x1080.jpg)|

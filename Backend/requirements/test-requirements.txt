@@ -1,0 +1,5 @@
+httpx
+pytest
+
+-r nox-requirements.txt
+-r requirements.txt

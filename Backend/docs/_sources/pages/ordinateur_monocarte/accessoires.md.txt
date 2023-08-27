@@ -1,0 +1,31 @@
+# Accessoires pour ordinateurs
+
+## Écrans
+
+### Écran tactile 
+````{admonition} Écran type Raspberry Pi
+:class: info
+- 1024x600 pixels
+- compatibilité avec plusieurs micro-ordinateurs
+- tactile avec différents contrôles
+- 60€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61XjOFRjCPL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Beumons-Raspberry-Touchscreen-Capacitif-Compatible/dp/B0B4VM67PV/ref=sr_1_5?keywords=écran+tactile+raspberry&qid=1689166130&sprefix=écran+tactile+rasp%2Caps%2C157&sr=8-5)
+```
+````
+````{admonition} Écran type Orange pi
+:class: info
+- 1280x800 pixels
+- compatibilité avec Orange Pi exclusivement
+- tactile avec différents contrôles
+- 90€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](http://www.orangepi.org/img/accessorieslisttouchscreenpi5.png)](https://fr.aliexpress.com/item/1005005287702024.html?spm=a2g0o.productlist.main.1.62113d63vmzIVw&algo_pvid=38369782-07b2-4f5f-931b-7dd35420882a&algo_exp_id=38369782-07b2-4f5f-931b-7dd35420882a-0&pdp_npi=3%40dis%21EUR%2197.07%2197.07%21%21%21751.86%21%21%402100b69816891686040391499d0743%2112000032498706805%21sea%21FR%210&curPageLogUid=BN7gZzOt3tXx)
+```
+````

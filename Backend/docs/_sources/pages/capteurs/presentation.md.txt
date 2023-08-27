@@ -1,0 +1,90 @@
+# Présentation des types de capteurs
+
+## Caméras couleurs
+
+```{admonition} Axes de travail
+:class: info
+Les caméras permettent de faire de l'acquisition d'image et de vidéos. 
+Les applications sont nombreuses et variées telles que :
+- La reconnaissance faciale
+- La détection d'objets
+- La compréhension d'une scène
+- La détection de couleurs
+```
+
+```{admonition} Exemple de caméra cloueurs rpi
+:class: quote
+:collapsible: 
+![ Camera couleur ](https://www.framboise314.fr/wp-content/uploads/2014/07/3_types_camera_pi.jpg)
+```
+
+## Caméras infrarouges
+
+```{admonition} Axes de travail
+:class: info
+Les caméras infrarouges permettent de faire de l'acquisition d'image suivant le spectre infrarouge. 
+On retrouve des application dans :
+- La détection de chaleur
+- La vision nocturne
+- La détection de mouvement
+- La détection de présence
+```
+
+```{admonition} Exemple de caméra infrarouge rpi
+:class: quote
+:collapsible: 
+![ Camera IR ](https://cdn.reprapworld.com/images/default/dynamic/products/details/prod_fBwflX.jpg)
+```
+
+## Microphones
+
+```{admonition} Axes de travail
+:class: info
+Les microphones sont des dispositifs utilisés pour capturer et enregistrer les sons. Dans le domaine de l'IA et de l'ingénierie embarquée, les microphones sont utilisés dans différentes applications, telles que :
+- La reconnaissance vocale
+- La détection de sons et d'événements acoustiques
+- L'analyse de signaux audio
+- L'interaction homme-machine basée sur la voix
+```
+
+```{admonition} Exemple de microphone seeed
+:class: quote
+:collapsible:
+![ Microphone ](https://respeaker.io/assets/images/6_mic_array_for_pi.jpg)
+```
+
+## Lidar
+
+```{admonition} Axes de travail
+:class: info
+Les lidars (Light Detection and Ranging) sont des capteurs utilisés pour mesurer la distance et la topographie d'un environnement en utilisant des faisceaux laser. Ils peuvent alors être utilisés dans un cadre en 2D ou en 3D suivant l'application.
+Voici donc des exemple d'applications :
+- La perception de l'environnement pour les véhicules autonomes
+- La cartographie et la modélisation 3D
+- La détection d'obstacles et d'objets
+- La navigation et le positionnement précis
+```
+
+```{admonition} Exemple de Lidar et des données collectées
+:class: quote
+:collapsible:
+![ Lidar matériel ](https://docs.wpilib.org/fr/stable/_images/2-dimentional-lidar.png)
+![ Lidar données ](https://www.flyingeye.fr/wp-content/uploads/2022/04/ArenesNimes2-LidarHD_web_0-1-scaled.jpg)
+```
+
+## Capteurs de mouvement
+
+```{admonition} Axes de travail
+:class: info
+Les capteurs de mouvement permettent de détecter et d'analyser les mouvements physiques, ce qui ouvre la voie à de nombreuses applications, telles que :
+- La détection de gestes
+- La réalité virtuelle et augmentée
+- La navigation autonome
+- L'analyse du comportement humain
+```
+
+```{admonition} Exemple de détecteur de mouvement PIR
+:class: quote
+:collapsible:
+![ Capteur de présence ](https://www.gotronic.fr/ori-detecteur-de-mouvement-grove-101020020-18975.jpg)
+```
