@@ -1,0 +1,13 @@
+# Matériel de réparation
+
+## Filamment de nettoyage
+[Title](https://www.amazon.fr/eSUN-Nettoyage-Filament-Imprimante-Cleaning/dp/B07FQ46L1L)
+## Aiguille nettoyage buse
+[Title](https://www.amazon.fr/Tangxi-Aiguilles-Nettoyage-imprimante-Flashforge/dp/B07V4LG8YQ/ref=sr_1_2_sspa?adgrpid=55179378414&hvadid=601521165762&hvdev=c&hvlocphy=9040874&hvnetw=g&hvqmt=e&hvrand=231665938329788237&hvtargid=kwd-401519044782&hydadcr=10998_2151732&keywords=aiguille+nettoyage+buse&qid=1689152810&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+## Maériel de rechange
+- buse
+- corps de chauffe ==> thermistance, ...
+- plateau
+- courroie
+[Title](https://eu.store.bambulab.com/en-fr/products/x1-series-spare-parts-bundle)
+[Title](https://eu.store.bambulab.com/en-fr/products/anti-vibration-feet-for-p1p)

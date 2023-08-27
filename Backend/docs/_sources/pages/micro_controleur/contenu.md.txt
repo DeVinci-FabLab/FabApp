@@ -1,0 +1,34 @@
+# Micrô-controllers conseillés
+
+## ARM vs RISC V
+
+- Je conseillerais une structure RISC V qui est 100% open source (arm ne l'est pas)
+
+### kendryte K210
+```{admonition} Avantages
+:class: success
+
+- RISC V ==> open source
+- Made for AI
+- pas cher ==> 9.15€ le module IA 
+```
+```{admonition} Défaults
+:class: failure
+- Distribution compliquée en Europe
+```
+
+### ESP32-C3
+```{admonition} Avantages
+:class: success
+
+- RISC V ==> open source
+- Accès wifi et bluetooth
+- 8.6€
+```
+
+| Kendryte K210 | ESP32_C3 |
+| ------- | ------- |
+| [ ![ Kendryte K210](https://www.mouser.fr/images/seeedstudios/images/114991695_t.jpg)](https://www.mouser.fr/ProductDetail/Seeed-Studio/114991695?qs=u16ybLDytRZ0%252BIE52cskuA%3D%3D)| [ ![ ESP32_C3](https://www.mouser.fr/images/espressifsystems/images/ESP32-C3-DevKitM-1_SPL.jpg)](https://www.mouser.fr/ProductDetail/Espressif-Systems/ESP32-C3-DevKitM-1?qs=pUKx8fyJudB1sOWbbEnGFw%3D%3D)|
+
+
+https://qengineering.eu/deep-learning-with-raspberry-pi-and-alternatives.html

@@ -1,0 +1,72 @@
+# Parc de drones
+
+## Présentation
+
+### Générale 
+Les drones sont des aéronefs contrôlés à distance ou de manière autonome sans pilote. Ils se présentent sous différentes formes et tailles et peuvent être utilisés pour un large éventail d'applications.
+
+Les quatre principaux types de drones que l'on retrouve sont les suivants :
+
+- Les **drones multirotors** sont le type de drone le plus courant. Ils comportent plusieurs rotors qui leur permettent de planer et de voler de manière stable. Les drones multirotors sont souvent utilisés pour la photographie, la vidéographie et les courses.
+- Les **drones à voilure fixe** ont une seule aile qui leur permet de voler plus vite et plus loin que les drones multirotors par exemple. Les drones à voilure fixe sont souvent utilisés pour la cartographie, l'arpentage ou la livraison.
+- Les **drones mono-rotor** ont un seul rotor qui tourne sur un axe vertical. Les drones mono-rotor sont souvent utilisés pour des applications industrielles où une lourde charge utile doit être soulevée.
+- Les **drones hybrides VTOL** combinent les caractéristiques des drones multirotors et des drones à voilure fixe. Ils peuvent rester en vol stationnaire et voler de manière stable comme les drones multirotors, mais ils peuvent aussi voler plus vite et plus loin comme les drones à voilure fixe. Les drones hybrides VTOL sont souvent utilisés pour des applications de recherche et de sauvetage.
+
+### Usage
+De plus, les drones deviennent de plus en plus indispensables pour l'acquisition de photographies et la cartographie. Ils offrent un certain nombre d'avantages par rapport aux méthodes traditionnelles :
+
+- Ils sont capables de capturer des images à partir d'un point de vue élevé, ce qui permet d'élargir le champ de vision et d'obtenir une représentation plus précise du terrain.
+- La plupart des drones peuvent être équipés de caméras à haute résolution, ce qui permet de capturer des images avec un niveau de détail intéressant en vue d'un traitement des résultats à postériori.
+- On peut rapidement les déployer, puis les faire voler dans des zones difficiles ou dangereuses d'accès par d'autres moyens.
+
+## Les modèles
+
+Au moment de choisir son drone, on peut alors décider de monter son propre drone, en achetant les pièces détachées et l'assembler, ou acheter un produit fonctionnel comme chez DJI ou Parrot avec des assistances au guidage et un qualité reconnue. Voici plusieurs modèles avec des caractériques différentes :
+
+````{admonition} DJI Mini 3
+:class: info
+- vidéo 4k hdr
+- 30 min d'autonomie
+- portée 10 km
+- pliable
+- ne peut pas subir de modification hors DJI
+- 500€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61koi1zbnNL.jpg)](https://store.dji.com/fr/product/dji-mini-3?vid=128001&from=store_top_banner)
+```
+````
+
+````{admonition} FPV Diatone Roma F5 V2
+:class: info
+- FPV
+- Robuste
+- peut se modifier
+- léger
+- très maniable
+- 500€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://www.bienchoisirsondrone.fr/wp-content/uploads/thumbs_dir/diatone-roma-f5-v2-hd-dji-version-5-pouces-4s6s-fpv-racing-drone-bnf-dji-fpv-plluucmtfk3srll83ceckfdrrslny4u4mhnf1iqft4.jpg)](https://www.banggood.com/fr/Diatone-Roma-F5-V2-DJI-Version-5-Inch-4S-or-6S-FPV-Racing-Drone-BNF-DJI-FPV-Air-Unit-FPV-VTX-Caddx-Polar-Cam-GPS-F722-MK2-F7-FC-50A-Blheli_32-ESC-2306_5-Motor-p-1842761.html?p=6V11097319502201611I&cur_warehouse=CN)
+```
+````
+
+````{admonition} FPV DJI Avata
+:class: info
+- FPV
+- Robuste
+- très maniable
+- réparable
+- 4k 60 ips
+- 1000€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://www.bienchoisirsondrone.fr/wp-content/uploads/thumbs_dir/dji-avata-et-casque-dji-fpv-v2-fly-smart-combo-ptsdoaeugda79u86v3uyi9tfycbz9x2n3oc9gpgrk8.jpg)](https://www.studiosport.fr/dji-avata-casque-dji-fpv-v2-fly-smart-combo-a24778.html?utm_source=ha&utm_medium=affiliation&utm_campaign=ytb-ha)
+```
+````

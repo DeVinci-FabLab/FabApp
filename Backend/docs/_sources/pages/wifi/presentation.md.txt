@@ -1,0 +1,9 @@
+# Wifi
+## Wifi MESH
+Asus présente deux modèles,
+C'est le seul constructeur a proposer des modèles performant et n'étant pas propriétaire.
+On est aux alentours de 300 à 450 par modules
+
+[![\[modèle normal\]](https://m.media-amazon.com/images/I/61hqrsKwMpL._AC_UY218_.jpg)](https://www.amazon.fr/dp/B0BD8WQHT3?ascsubtag=AM_LN_AF_TP__190641_GA_F_115_DK_LI_68289_14__&tag=lmdn-api-21&linkCode=ogi&th=1&smid=AX308HEWPUHQB)
+
+[![\[modèle pro\]](https://m.media-amazon.com/images/I/710z6bIMidL._AC_UY218_.jpg)](https://www.amazon.fr/dp/B09VKXRV1C?ascsubtag=AM_LN_AF_TP__p68981_TE_F_115_DK_LI_68981_14__TP&tag=lmdn-api-21&linkCode=osi&th=1&smid=A3ISK8D5WK4OD4)

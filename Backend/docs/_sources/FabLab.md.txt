@@ -1,0 +1,95 @@
+# Présentation des composants 
+
+
+```{mermaid}
+%%{init: {'theme': 'base',
+    'themeVariables': {
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': 'transparent',
+      'tertiaryColor': '#fff'
+    },'nodeRadius': 10}
+}%%
+graph LR
+    subgraph Electronic [" Electronic  "]
+        direction LR
+                subgraph Electronic_tool
+            direction TB
+            subgraph Micro_Ordinateur [ <a style='color:#000' href='Micro_Computer.html'> Micro Computer</a> ]
+                direction LR
+                Raspberry_Pi[<a style='color:#fff' href='Micro_Computer.html#raspberry-pi'> Raspberry Pi </a>]:::color_electronic
+                Potato[<a style='color:#fff' href='Micro_Computer.html#potato'> Potato </a>]:::color_electronic
+                Jetson_Nano[<a style='color:#fff' href='Micro_Computer.html#jetson-nano'> Jetson Nano </a>]:::color_electronic
+            end
+            subgraph Micro_crontroler [ <a style='color:#000' href='Micro_Controler.html'> Micro Controler</a> ]
+                ESP_8266[<a style='color:#fff' href='Micro_Controler.html#esp-8266'> ESP 8266 </a>]:::color_electronic
+                ESP_32[<a style='color:#fff' href='Micro_Controler.html#esp-32'> ESP 32 </a> ]:::color_electronic
+                Arduino_nano[ <a style='color:#fff' href='Micro_Controler.html#arduino-nano'> Arduino Nano </a> ]:::color_electronic
+            end
+            subgraph Sensors [ <a style='color:#000' href='Sensors.html'> Sensors</a> ]
+                Pi_Camera[ <a style='color:#fff' href='Sensors.html#pi-camera'>Pi_Camera</a>]:::color_electronic
+                ESP_Camera[ <a style='color:#fff' href='Sensors.html#esp-cam'> ESP_Camera</a>]:::color_electronic
+                Sound[ <a style='color:#fff' href='Sensors.html#microphone'> Sound_sensor</a>]:::color_electronic
+            end
+        end
+        subgraph Soldering
+            direction TB
+            subgraph solder
+                direction LR
+                %%Panne[<a href="intro.html">Go to presentation composant</a>]:::color_electronic
+                %%tin[Tin]:::color_electronic
+                %%pump_tin[Pompe à dessouder]:::color_electronic
+                Ventilateur[Ventilateur]:::color_electronic
+                Soldering_paste[Pâte à souder]:::color_electronic
+                flux[flux]:::color_electronic
+                PCB_Handeler[Porte Carte]:::color_electronic
+                Lamp_with_magnifying_glass[loupe]:::color_electronic
+                breadboard[<a href=''>breadboard </a>]:::color_electronic
+
+            end
+            subgraph PCB [ <a style='color:#000' href='PCB.html'> PCB</a> ]
+                direction LR
+                CNC_Chimique[<a style='color:#fff' href='PCB.html#cnc-chimique'> CNC Chimique </a>]:::color_electronic
+                CNC_Mecanic[<a style='color:#fff' href='PCB.html#cnc-mecanique'> CNC Mécanique </a>]:::color_electronic
+            end
+        end
+    end
+
+
+
+
+style Electronic fill:#92BBFF,stroke:#333,stroke-width:2px, primaryTextColor: #fff, primaryBorderColor: transparent, tertiaryColor: #fff;
+style Electronic_tool fill:#465ac1,color:#fff;
+style Soldering fill:#465ac1,color:#fff;
+classDef color_electronic fill:#35469D;
+```
+
+
+```{mermaid}
+graph TD
+    subgraph Informatic
+        subgraph Apps
+            Solidworks:::color_informatic
+            Fusion_360:::color_informatic
+            VS_Code:::color_informatic
+            Bambu_studio:::color_informatic
+            UNITY:::color_informatic
+            PCB_App:::color_informatic
+
+        end
+
+    end
+
+
+    subgraph Mecanic
+        subgraph Subgroup 3.1
+            I:::color_mecanic
+            J[Object 10]:::color_mecanic
+        end
+    end
+
+style Informatic fill:#FF7D6D,stroke:#333,stroke-width:2px;
+classDef color_informatic fill:#CB2026;
+
+style Mecanic fill:#6EC291,stroke:#333,stroke-width:2px;
+classDef color_mecanic fill:#0E9A48;
+```

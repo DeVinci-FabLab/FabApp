@@ -1,0 +1,166 @@
+# Présentation et comparatif des modèles
+
+```{admonition} Bien choisir sa carte
+:class: attention
+- Pour faire tourner des modèles demandant du gpu, il faut aller voir les <a href='#carte-avec-gpu'>cartes Nvidia</a>
+```
+
+## Raspberry pi like
+
+`````{tab-set}
+
+````{tab-item} Orange Pi 5 b
+```{admonition} Avantages
+:class: success
+- 8 à 16 Go de RAM DDR4
+- 2.4 GHz
+- Open source
+- wifi et bluetooth
+```
+
+```{admonition} Défaults
+:class: failure
+- 5V/4A
+- 100\$ - 150 \$
+```
+
+| Orange Pi 5B |
+| ------- |
+| [ ![ Orange Pi 5](http://www.orangepi.org/img/icon-5B-0.png)](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5B.html)|
+````
+
+````{tab-item} Potato
+```{admonition} Avantages
+:class: success
+- Open-source
+- 30\$
+```
+```{admonition} Défaults
+:class: failure
+- 4go de RAM max
+```
+
+
+| Tritium | Potato |
+| ------- | ------- |
+| [![Tritium H3/H5](https://libre.computer/api/products/all-h3-cc/gallery/0.webp)](https://libre.computer/products/aml-s905x-cc/) | [![Potato](https://libre.computer/api/products/aml-s905x-cc/gallery/0.webp)](https://libre.computer/products/aml-s905x-cc/) |
+````
+
+````{tab-item} Raspberry Pi
+
+```{admonition} Défaults
+:class: failure
+- 90 € (quand disponible)
+- 8go de RAM max
+- Rupture de stock
+- Prix élevé
+- Non libre
+```
+| Rasperry PI |
+| ------- |
+|[![Raspberry Pi](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Raspberry_Pi_B%2B_top.jpg/1920px-Raspberry_Pi_B%2B_top.jpg)](https://www.kubii.com/en/raspberry-pi-boards/2955-raspberry-pi-4-model-b-8gb-3272496309050.html)|
+````
+
+`````
+## Carte avec GPU
+
+```{admonition} Attention Open Source
+:class: Attention,
+
+Sur les cartes Jetson, Nvidia est propriétaire
+```
+
+`````{tab-set}
+
+````{tab-item} Jetson Orin Nano
+```{admonition} Avantages
+:class: success
+- 8go de RAM
+- 1024 CUDA cores 
+- 32 tensor cores
+```
+```{admonition} Défaults
+:class: failure
+- 400 €
+- pas de cartes wifi
+```
+
+
+| Jetson Orin Nano | 
+| ------- | 
+|[![NVIDIA Jetson Orin Nano](https://cdn.sparkfun.com//assets/parts/2/1/9/6/0/NVIDIA-JetsonOrin-3QTR-Front-Left-_1_.jpg)](https://docs.rs-online.com/4051/A700000009607470.pdf)|
+````
+
+````{tab-item} Jetson Nano
+```{admonition} Avantages
+:class: success
+- 128-core NVIDIA
+```
+
+```{admonition} Défaults
+:class: failure
+- 4go de RAM
+- 150€
+- Pas de carte réseau
+```
+
+| Jetson Nano |
+| ------- |
+| [![Jetson Nano](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/buy/buy-jetson_nano_devkit--JetsonNano-DevKit_Front-Top_Right_trimmed.jpg)](https://docs.rs-online.com/5d0f/A700000006773861.pdf)|
+````
+
+````{tab-item} AGX Orin
+
+```{admonition} Avantages
+:class: success
+- 2048 CUDA cores
+- 64 Tensor cores
+- 32GB 256-bit LPDDR5
+```
+
+```{admonition} Défaults
+:class: failure
+- 1 385€
+```
+| Jetson Nano | 
+| ------- | 
+| [![Jetson Nano](https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_399,q_auto,w_710/c_pad,h_399,w_710/Y2483555-01?pgw=1)](https://docs.rs-online.com/9522/A700000008939068.pdf)
+````
+`````
+
+
+## Compute Module
+
+```{admonition} Puissance gpu Nvidia
+:class: Info,
+
+Nous pensons qu'il est trop compliqué de prendre un compute module qui rajoute de la complexité aux ordinateurs monocartes
+```
+
+`````{tab-set}
+````{tab-item} Raspberry
+```{admonition} Avantages
+:class: success
+- La plus utilisée
+- 8go de RAM
+- Compatibilité avec pleins de boards
+```
+```{admonition} Défaults
+:class: failure
+- raspberry pi en plus volumineux avec la board
+- Complexité
+```
+````
+````{tab-item} So-Quartrz
+```{admonition} Avantages
+:class: success
+- 8go de RAM DDR4
+- ARM + Risc V
+fully open source (not for arm)
+```
+```{admonition} Défaults
+:class: failure
+- pas d'upgrde possible
+```
+````
+`````

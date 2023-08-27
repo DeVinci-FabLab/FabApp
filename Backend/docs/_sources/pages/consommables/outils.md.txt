@@ -1,0 +1,420 @@
+# Outillage
+
+## Outils à main
+
+### Tournevis
+````{admonition} iFixit Manta
+:class: info
+- matériel robuste
+- 115 embouts
+- très polyvalent
+- 60€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81hfuaTlK7L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/iFixit-Manta-Driver-Kit-112/dp/B07BMM74FD/ref=sr_1_10?__mk_fr_FR=ÅMÅŽÕÑ&crid=1V0E9QI0OMWIF&keywords=ifixit&qid=1689061078&sprefix=ifixit%2Caps%2C179&sr=8-10)
+```
+````
+### Pistole à colle
+````{admonition} Pistolet Bosh
+:class: info
+- très robuste
+- précis
+- 30€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71ZAalRqbBL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Bosch-0603264503-Pistolet-colle-thermofusible/dp/B0001D1Q72/ref=sr_1_7?__mk_fr_FR=ÅMÅŽÕÑ&crid=1AG3PLM3IQOW1&keywords=pistolet+à+colle&qid=1689064336&sprefix=pistolet+à+colle%2Caps%2C138&sr=8-7)
+```
+````
+### Décapeur thermique
+````{admonition} décapeur Seekone
+:class: info
+- tempéraure réglable (60-600°C)
+- 4 buses différentes
+- 30€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71RknrnYNxL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/SEEKONE-Thermique-température-accessoires-métalliques/dp/B082D6R8ZY/ref=sr_1_5?__mk_fr_FR=ÅMÅŽÕÑ&crid=3JU0837VLD1XX&keywords=décapeur+thermique&qid=1689064442&sprefix=décapeur+thermique%2Caps%2C154&sr=8-5)
+```
+````
+### Pinces 
+````{admonition} Lot de pinces stanley
+:class: info
+- multi-usage
+- robuste
+- 60€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61MqC67pRxL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Stanley-FMHT0-80518-coupante-diagonale-électricien/dp/B06XCBHZVZ/ref=sr_1_6?__mk_fr_FR=ÅMÅŽÕÑ&crid=LXUL0WPVXXZJ&keywords=pince%2Bcoupante%2Bstanley&qid=1689065137&sprefix=pinces%2Bcoupantes%2Bstanly%2Caps%2C171&sr=8-6&th=1)
+```
+````
+````{admonition} Pinces à dénuder Facom
+:class: info
+- outil précis et tenace
+- ergonomique et multi-usage
+- 40€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/51iMrL7LS1L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/sertir-standard-cosses-pré-isolées-Facom/dp/B00B0OQ03G/ref=sr_1_7?__mk_fr_FR=ÅMÅŽÕÑ&crid=162VQO680JQUP&keywords=pince+à+dénuder+facom&qid=1689065552&sprefix=pince+à+dénuder+facom%2Caps%2C138&sr=8-7)
+```
+````
+````{admonition} Serre-joints 
+:class: info
+- outil précis et tenace
+- ergonomique et multi-usage
+- 40€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61NdI2iPv8L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Dégagement-Serres-Joints-Charpentier-Bricolage-Artisanat/dp/B094Q4NSQN/ref=sr_1_8?keywords=serre+joint&qid=1689065800&sprefix=serre%2Caps%2C175&sr=8-8)
+```
+````
+### Cutters et scalpels
+````{admonition} Cutters stanley
+:class: info
+- locket simple
+- bon grip
+- possibilité de casser la lame
+- 10€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/51scbH1PTYL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Stanley-0-10-417-Cutter-Corps-bi-matière/dp/B00HHNL7Z0/ref=sr_1_7?__mk_fr_FR=ÅMÅŽÕÑ&crid=20S7B2HLTWIHC&keywords=cutter&qid=1689066199&sprefix=cutter%2Caps%2C175&sr=8-7)
+```
+````
+````{admonition} Scalpels Amazon basics
+:class: info
+- 20 lames
+- outillage supplémentaire
+- 10€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81mLZ4KntRL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/AmazonBasics-29-Piece-Precision-Hobby-Knife/dp/B07V83Q9W8/ref=sr_1_26?keywords=scalpel+de+découpe&qid=1689066369&sprefix=scal%2Caps%2C148&sr=8-26)
+```
+````
+### Brosses métalliques
+````{admonition} brosses Amazon basics
+:class: info
+- 3 brosses
+- bonne qualité
+- 5€ pièce
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71C7jV60fmL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/AmazonBasics-mini-brosses-laiton-poignée-ergonomique/dp/B08D9QH3X3/ref=sr_1_12?__mk_fr_FR=ÅMÅŽÕÑ&crid=HU0S0TKH6QKI&keywords=brosse+métallique+buse&qid=1689066513&sprefix=brosse+métallique+buse%2Caps%2C213&sr=8-12)
+```
+````
+### Ponçage
+````{admonition} kit de limes AojSup
+:class: info
+- 17 pièces
+- robuste et multi-usage (grands et petits formats)
+- 30€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/91HF20fUX6L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/AojSup-Nettoyage-Menuiserie-Sculpture-PACKAGING/dp/B08BZFH1C4/ref=sr_1_5?keywords=limes+à+métaux&qid=1689066600&sprefix=limes+méta%2Caps%2C151&sr=8-5)
+```
+````
+````{admonition} Papier abrasif
+:class: info
+- large choix de grains (120 à 3000)
+- 10€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61Jss7iAiXL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Papier-abrasif-Utilisé-voitureshumide（42-Papier）/dp/B07H9TZFBT/ref=sr_1_6?keywords=papier+abrasif&qid=1689066774&sprefix=papier+abr%2Caps%2C165&sr=8-6)
+```
+````
+### Perseuses, visseuses
+````{admonition} Perceuses Black Decker
+:class: info
+- robuste
+- large gamme d'accessoires
+- 92€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71ZW0Av9rZL._AC_UL320_.jpg)](https://www.amazon.fr/Bosch-perceuse-visseuse-UniversalDrill-18-batteries-système/dp/B08LP6MB7H/ref=asc_df_B08LP6MB7H/?tag=googshopfr-21&linkCode=df0&hvadid=477073079663&hvpos=&hvnetw=g&hvrand=9473111908265352973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006094&hvtargid=pla-1057199296469&th=1)
+```
+````
+````{admonition} Outils perçage
+:class: info
+- robuste
+- large gamme d'accessoires
+- 20,95€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81r17SsUKyL._AC_UL480_FMwebp_QL65_.jpg)](https://www.amazon.fr/Bosch-Coffret-X-Line-piÃ¨ces-2607019327/dp/B000P4IQF2/ref=sr_1_2_sspa?keywords=foret+a+bois&qid=1689234832&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+```
+````
+````{admonition} Dremel
+:class: info
+- facile d'emploi
+- filaire
+- 40€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/91GamAcnQ1L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Dremel-3000-15-rotatif-multi-usage-accessoires/dp/B0073R1IZ4/ref=sr_1_1?__mk_fr_FR=ÅMÅŽÕÑ&crid=14PTGVEJ7M7NS&keywords=dremel+wireless&qid=1689067144&sprefix=dremel+wireless%2Caps%2C130&sr=8-1)
+```
+````
+````{admonition} Accessoires Dremel
+:class: info
+- 150 accessoires
+- 30€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71svG7J2R6L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Dremel-2615S724JA-Coffret-Accessoires-rotatifs/dp/B00NNJI7GY/ref=sr_1_4?__mk_fr_FR=ÅMÅŽÕÑ&crid=14PTGVEJ7M7NS&keywords=dremel+wireless&qid=1689067144&sprefix=dremel+wireless%2Caps%2C130&sr=8-4)
+```
+````
+
+## Outils de mesure 
+### Pieds à coulisse
+````{admonition} Pied à coulisse 
+:class: info
+- 150 mm de précision
+- 17€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61u6hdho7+L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/inoxydable-Vernier-Calibre-Micrometer-précision/dp/B074HZ8S21/ref=sr_1_6?__mk_fr_FR=ÅMÅŽÕÑ&crid=2ALDAJL0D3PUW&keywords=pieds+à+coulisse&qid=1689068501&sprefix=pieds+à+couliss%2Caps%2C153&sr=8-6)
+```
+````
+### Mètres
+````{admonition} Mètre ruban stanley
+:class: info
+- 3m
+- 8€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71XamjNGd5L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Stanley-0-30-687-Mesure-bi-matière-Tylon/dp/B003Y6ISWO/ref=sr_1_10?__mk_fr_FR=ÅMÅŽÕÑ&crid=3JSGS28QC7SOS&keywords=mètre+ruban&qid=1689068670&sprefix=mètre+ruban%2Caps%2C155&sr=8-10)
+```
+````
+````{admonition} Règle en acier inox stanley
+:class: info
+- 30-50 cm
+- 5-15€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/51jRR84Hh2L._AC_UY218_.jpg)](https://www.amazon.fr/Meike-Règle-mesure-double-épaisse/dp/B0BSVFVNHX/ref=sr_1_4?__mk_fr_FR=ÅMÅŽÕÑ&crid=XKGL5DL6JD60&keywords=règle+acier+large&qid=1689236104&s=hi&sprefix=règle+acier+larg,diy,128&sr=1-4)
+```
+````
+````{admonition} Équerre
+:class: info
+- lot avec marqueur
+- multi-usage
+- 25€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/91LGAR1v4EL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Déquerres-charpentier-professionnel-Comprenant-Marqueur/dp/B0BHT5B4ZG/ref=sr_1_44?__mk_fr_FR=ÅMÅŽÕÑ&crid=2XKUEXLM6GJY8&keywords=équerre+mesure&qid=1689069014&sprefix=équerre+mesure%2Caps%2C132&sr=8-44)
+```
+````
+### Niveaux à bulle
+````{admonition} Niveau stanley
+:class: info
+- 3 mesures différentes
+- 15€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61Abz7sY2PL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Stanley-Niveau-torpedo-magnétique-Bretagne/dp/B0001IW6XU/ref=sr_1_5?keywords=niveau%2Ba%2Bbulle&qid=1689068861&sprefix=niveau%2B%2Caps%2C210&sr=8-5&th=1)
+```
+````
+### Électronique 
+````{admonition} Multimètre
+:class: info
+- complet
+- écran LCD
+- 20€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61MqL7hXX-L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/BEVA-Multimètre-Contrôleur-Automatique-Ampèremètre/dp/B07H824437/ref=sr_1_12?keywords=multimetre+numerique&qid=1689082536&sprefix=multim%2Caps%2C133&sr=8-12)
+```
+````
+````{admonition} Générateur de tension
+:class: info
+- 30V 10A
+- moderne et fiable
+- 60€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81tjDOSLsoL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Alimentation-Laboratoire-Ajustable-Commutation-Affichage/dp/B08MQ35WVD/ref=sr_1_5?__mk_fr_FR=ÅMÅŽÕÑ&crid=3IDRRGK0MTI8Y&keywords=générateur+de+tension&qid=1689082514&sprefix=générateur+de+tension%2Caps%2C141&sr=8-5)
+```
+````
+
+## Soudure
+
+### Fer à souder
+
+````{admonition} Fers
+:class: info
+- très bonne qualité et précision
+- robuste
+- 200€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71otiYas-gL._AC_UY436_QL65_.jpg)](https://www.amazon.fr/Weller-Professional-T0053298699-T0053298399-température/dp/B079ZN87FT/ref=sr_1_1?__mk_fr_FR=ÅMÅŽÕÑ&crid=3015DZON0X3K2&keywords=fer%2Bà%2Bsouder&qid=1689083275&refinements=p_72%3A437873031%2Cp_36%3A5000-%2Cp_89%3AWeller&rnid=1680780031&s=hi&sprefix=fer%2Bà%2Bsouder%2Caps%2C164&sr=1-1&th=1)
+```
+````
+````{admonition} Gaîne thermoretractable
+:class: info
+- 10€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/714A6dfkEnL._AC_UL320_.jpg)](https://www.amazon.fr/Vinabo-Thermorétractables-Thermorétractable-Tailles-Ratio-Contraction/dp/B0C143M8ZH/ref=sr_1_6?keywords=gaine+thermorétractable&qid=1689238004&sr=8-6)
+```
+````
+````{admonition} Support cartre pour souder
+:class: info
+- très bonne qualité et précision
+- 70€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71R6Z2fw1fL._AC_UL320_.jpg)](https://www.amazon.fr/Support-carte-circuit-Réglable-Flexibles/dp/B097Y9ZR19/ref=sr_1_31?__mk_fr_FR=ÅMÅŽÕÑ&crid=3LEFDDIZG6R9E&keywords=support+carte+circuit+imprimé&qid=1689239407&sprefix=support+carte+circuit+imprimé,aps,130&sr=8-31)
+```
+````
+
+## Équipements de protection individuelle
+
+### Lunettes
+````{admonition} Lunettes de protection
+:class: info
+- PVC
+- 3€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61BTghW7ODL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Atope-visiteur-compatibles-graduadas-transparent/dp/B073QWKHHT/ref=sr_1_8?__mk_fr_FR=ÅMÅŽÕÑ&crid=OIRNFGUNVWRF&keywords=lunettes+de+protection+EPI&qid=1689067426&sprefix=lunettes+de+protection+epi%2Caps%2C132&sr=8-8)
+```
+````
+### Gants
+````{admonition} Gants anti-coupure
+:class: info
+- 10€ la paire
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81hoLhu9lxL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Paire-gants-anti-coupures-Twinzee/dp/B016NAGOZU/ref=sr_1_6?__mk_fr_FR=ÅMÅŽÕÑ&crid=2TEFMLL90DNFR&keywords=gants+de+protection&qid=1689067531&sprefix=gants+de+protection%2Caps%2C139&sr=8-6)
+```
+````
+
+````{admonition} Gants anti-brûlure
+:class: info
+- polyvalent
+- 7€ la paire
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81Y25zp+4aL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/ROSTAING-MAXIPRO-IT09-Gants-Noir/dp/B00Z7I0WR6/ref=sr_1_7?__mk_fr_FR=ÅMÅŽÕÑ&crid=2TEFMLL90DNFR&keywords=gants+de+protection&qid=1689067531&sprefix=gants+de+protection%2Caps%2C139&sr=8-7)
+```
+````
+
+````{admonition} Gants nitrile 
+:class: info
+- meilleure protection que latex
+- résistants
+- 15€ les 100
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61-k-4BxvSL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/OneProtek-Gants-jetables-noir-nitrile/dp/B09NQFPF51/ref=sr_1_5?__mk_fr_FR=ÅMÅŽÕÑ&crid=2J0CMKNZ7OB3T&keywords=gants+de+protection+nitrile&qid=1689067791&sprefix=gants+de+protection+nitrile%2Caps%2C141&sr=8-5)
+```
+````
+
+### Casques
+````{admonition} Protection auditive
+:class: info
+- 38dB
+- 25€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61JdFdIFViL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/ProCase-Réglable-Confortable-Atténuation-Stressant-Noir/dp/B07QC5W3C5/ref=sr_1_7?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Z3MDV4MFC5K&keywords=casque+isolation+sonore&qid=1689068113&sprefix=casque+isolation+sonore%2Caps%2C171&sr=8-7)
+```
+````
+
+### Plans de travail
+````{admonition} Tapis de soudure
+:class: info
+- adhère bien aux surfaces
+- plusiseurs compartiments de rangement 
+- 20€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71UOrJab9FL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/travail-magnétique-silicone-résistant-chaleur/dp/B07KW97DW6/ref=sr_1_26?__mk_fr_FR=ÅMÅŽÕÑ&crid=1V0E9QI0OMWIF&keywords=ifixit&qid=1689063593&sprefix=ifixit%2Caps%2C179&sr=8-26)
+```
+````
+````{admonition} Tapis de découpe
+:class: info
+- résistant à la chaleur et aux coupes
+- marquage en surface
+- anti-dérapant
+- 15€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71d1+MGoW+L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Garden-Mile-auto-guérison-anti-dérapant-précision/dp/B06XWDQB7Q/ref=sr_1_10?__mk_fr_FR=ÅMÅŽÕÑ&crid=3SKPJUUR0USLU&keywords=plan%2Bde%2Btravail%2Bcoupe%2Bquadrillage&qid=1689063957&sprefix=plan%2Bde%2Btravail%2Bcoupe%2Bcadrillage%2Caps%2C116&sr=8-10&th=1)
+```
+````
+### Ventilateurs filtrants
+````{admonition} Ventilateurs
+:class: info
+- très bonne aspiration
+- portable
+- 70€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/619xwr0rqmL._AC_UY436_QL65_.jpg)](https://www.amazon.fr/Extracteur-absorbeur-ventilateur-bricolage-réparation/dp/B08RHJ64LD/ref=sr_1_7?__mk_fr_FR=ÅMÅŽÕÑ&crid=2EXDYAQCKWF8Y&keywords=ventilateur+soudure&qid=1689083391&s=hi&sprefix=ventilateurs+soudure%2Cdiy%2C122&sr=1-7)
+```
+````
