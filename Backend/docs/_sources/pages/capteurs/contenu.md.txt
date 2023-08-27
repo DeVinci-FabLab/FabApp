@@ -1,0 +1,315 @@
+# Comparatif des modèles
+
+## Caméras couleurs
+
+`````{tab-set}
+````{tab-item} Picamera
+```{admonition} Avantages
+:class: success
+- 12 MP 
+- 1080p 50ips
+- 30€
+- Open source
+- Option Wide ou NoIR
+- mise en place facile
+```
+
+```{admonition} Incovénients
+:class: failure
+- pas de zoom
+- pas de stabilisation de l'image
+- petite taille
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Camera couleur ](https://media.elektor.fr/media/catalog/product/cache/9cc822bfc6a57f9729d464b8b5e0e0df/r/a/raspberry-pi-camera-module-3.png)](https://datasheets.raspberrypi.com/camera/camera-module-3-product-brief.pdf)
+```
+````
+
+````{tab-item} ArduCam
+```{admonition} Avantages
+:class: success
+- 16 mp, plus haut qu'un téléphone
+- 4K
+- microphone intégré
+- Open source
+```
+
+```{admonition} Inconvénients
+:class: failure
+- 120€
+- nécessite un driver, prise en main plus compliquée
+- pas de stabilisation de l'image
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ ArduCam ](https://www.kubii.com/12798-large_default/camera-64mp-pour-raspberry-pi.jpg)](https://www.kubii.com/fr/cameras-capteurs/3723-camera-64mp-pour-raspberry-pi-3272496312074.html)
+```
+````
+
+````{tab-item} ESP32-CAM
+```{admonition} Avantages
+:class: success
+- module wifi et bluetooth compatible
+- < 10€
+- Open source
+- mise en place facile
+```
+
+```{admonition} Inconvénients
+:class: failure
+- 2 MP
+- pas de zoom
+- pas de stabilisation de l'image
+- pas de port USB-UART 
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ ESP32 CAM ](https://haade.fr/assets/images/generated/shop/2133/Carte-de-d-veloppement-wifi-ESP32-CAM-MB-tableau-Bluetooth-avec-cam-ra-OV2640-micro-USB-640-835399ae9.jpg)](https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0602_Web.pdf)
+```
+````
+`````
+
+## Caméras infrarouges
+
+
+`````{tab-set}
+
+````{tab-item} Camera PIM
+```{admonition} Avantages
+:class: success
+- large spectre
+- mise en place facile
+- 64 ips
+```
+
+```{admonition} Inconvénients
+:class: failure
+- pas de zoom
+- pas de stabilisation de l'image
+- petite taille
+- 60€
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Camera IR ](https://www.gotronic.fr/ar-module-camera-thermique-pim387-31582.jpg)](https://fr.aliexpress.com/item/1005005773491690.html?spm=a2g0o.productlist.main.47.581531445rshpx&algo_pvid=a5de5987-a31e-4cf7-8bc8-eec0788a82d4&algo_exp_id=a5de5987-a31e-4cf7-8bc8-eec0788a82d4-23&pdp_npi=3%40dis%21EUR%2145.14%2131.15%21%21%2148.62%21%21%402145280e16891697857645213d075e%2112000034300830752%21sea%21FR%210&curPageLogUid=ydGUnT548axW)
+```
+````
+````{tab-item} Picamera NoIR
+```{admonition} Avantages
+:class: success
+- 12 MP 
+- 1080p 50ips
+- 30€
+- Open source
+- mise en place facile
+```
+
+```{admonition} Inconvénients
+:class: failure
+- pas de zoom
+- pas de stabilisation de l'image
+- petite taille
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Camera NoIR ](https://media.elektor.fr/media/catalog/product/cache/9cc822bfc6a57f9729d464b8b5e0e0df/r/a/raspberry-pi-camera-module-3-noir.png)](https://datasheets.raspberrypi.com/camera/camera-module-3-product-brief.pdf)
+```
+````
+
+`````
+
+## Microphones
+
+
+`````{tab-set}
+
+````{tab-item} ADAFruit Max9814
+```{admonition} Avantages
+:class: success
+- Bonne sensibilité
+- bruit très faible 
+- large plage de 120dB
+```
+
+```{admonition} Inconvénients
+:class: failure
+- 10€ pièce
+- output DC
+- micro pas directionnel
+- volatge faible en sortie
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ ADAFruit Max9814 ](https://images-eu.ssl-images-amazon.com/images/I/81sIoYZl9JL._AC_UL600_SR600,600_.jpg)](https://www.gotronic.fr/art-module-micro-amplifie-max9814-ada1713-22179.htm)
+```
+````
+````{tab-item} GY-MAX4466
+```{admonition} Avantages
+:class: success
+- gain ajustable (25x à 125x)
+- 3€ pièce
+- réduit le bruit généré par l'alimentation
+```
+
+```{admonition} Inconvénients
+:class: failure
+- DC output (pas AC, dépend du besoin)
+- amplificateur peu puissant et pas très sensible ()
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![GY-MAX4466 ](https://m.media-amazon.com/images/I/51eh6wynLAL._AC_UF1000,1000_QL80_.jpg)](https://www.amazon.fr/AZDelivery-GY-MAX4466-Amplificateur-Microphone-compatible/dp/B08T1Y58HR/ref=sr_1_3_sspa?keywords=microphone+raspberry&amp&qid=1687340912&amp&sr=8-3-spons&amp&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp&psc=1)
+```
+````
+
+
+````{tab-item} Arduino Mic module
+```{admonition} Avantages
+:class: success
+- 2€ pièce
+- gain ajustable
+- plage de 20Hz à 20kHz
+```
+
+```{admonition} Inconvénients
+:class: failure
+- fait en plastique donc moins durable
+- Alimentation AC
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![Arduino Mic module](https://cdn-reichelt.de/bilder/web/artikel_ws/A300/ST1146_01.jpg)](https://www.reichelt.com/fr/fr/arduino-mikrofon-modul-ard-mic-modul4-p282655.html?PROVID=2810&gclid=Cj0KCQjw756lBhDMARIsAEI0AgkpnBhOZGnphUr-71NyESOxEoeaXXtBA8-Xm1CrIZZTE5vJg38Hm-waAt6-EALw_wcB)
+```
+````
+
+`````
+
+## Capteurs de mouvement
+
+
+`````{tab-set}
+````{tab-item} Détecteur de mouvement IR SEN0171
+```{admonition} Avantages
+:class: success
+- open source
+- accessible (5€)
+- faible consommation
+- distance max 7m
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ IR SEN0171 ](https://www.gotronic.fr/ar-detecteur-de-mouvement-ir-sen0171-22704.jpg)](https://www.gotronic.fr/art-detecteur-de-mouvement-ir-sen0171-22704.htm)
+```
+````
+
+````{tab-item} Grove 101020020
+```{admonition} Avantages
+:class: success
+- bon angle de détection (120°)
+- open source
+- accessible (8€)
+```
+
+```{admonition} Inconvénients
+:class: failure
+- consommation moyenne
+- distance max 3m
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![Grove 101020020 ](https://www.gotronic.fr/ar-detecteur-de-mouvement-grove-101020020-18975.jpg)](https://www.gotronic.fr/art-detecteur-de-mouvement-grove-101020020-18975.htm)
+```
+````
+
+`````
+
+## Lidar
+
+`````{tab-set}
+````{tab-item} Lidar 2D LD19
+```{admonition} Avantages
+:class: success
+- grande sensibilité aux objets noirs
+- moteurs brushless
+- compatible ROS et ROS2
+```
+
+```{admonition} Inconvénients
+:class: failure
+- Ne peut effectuer de mesure sous le soleil
+- 12m maximum (dans la moyenne)
+- 140€ (légèrement plus cher que la moyenne)
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Lidar LD19 ](https://www.gotronic.fr/ar-capteur-de-distance-lidar-ld19-35884.jpg)](https://www.gotronic.fr/art-capteur-de-distance-lidar-ld19-35884.htm)
+```
+````
+
+````{tab-item} Lidar 2D RPLIDAR A1M8
+```{admonition} Avantages
+:class: success
+- grande sensibilité aux objets noirs
+- 120€ 
+- compatible ROS et ROS2
+```
+
+```{admonition} Inconvénients
+:class: failure
+- Ne peut effectuer de mesure sous le soleil
+- 12m maximum (dans la moyenne)
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ RPLIDAR A1M8 ](https://www.gotronic.fr/ar-capteur-de-distance-rplidar-a1m8-29031.jpg)](https://www.gotronic.fr/art-capteur-de-distance-rplidar-a1m8-29031.htm)
+```
+````
+````{tab-item} Lidar Neuvition 2D/3D série Titan
+```{admonition} Avantages
+:class: success
+- technologie accompagnée d'un logiciel
+- résitant à température fortes et faibles
+- jusqu'à 30 ips
+- fonctionne en extérieur
+- distance de 200m à 600m suivant le modèle
+```
+
+```{admonition} Inconvénients
+:class: failure
+- pricing professionnel (ordre de prix en milliers d'euros)
+- non open-source
+- imposant (1.5kg pour les 3D)
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Série titan ](https://www.neuvition.com/wp-content/themes/twentytwenty/assets/images/home/banner/banner_products.webp)](https://www.neuvition.com/products/titan-m1-series.html)
+```
+````
+`````

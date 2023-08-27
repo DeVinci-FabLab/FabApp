@@ -1,0 +1,172 @@
+# Composants et accessoires électroniques
+
+## Cartes à trous
+````{admonition} Lot de cartes
+:class: info
+- différentes tailles 
+- Bonne qualité
+- double-face 
+- 20€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/918CF5dPTPL._AC_UY436_QL65_.jpg)](https://www.amazon.fr/Prototype-universel-Solder-able-Protoboards-Electronic/dp/B07FRH6ZL7/ref=sr_1_1?__mk_fr_FR=ÅMÅŽÕÑ&crid=364V36XPITMKP&keywords=lot+de+carte+à+trous+électronique&qid=1689240790&sprefix=lot+de+carte+à+trous+électronique%2Caps%2C119&sr=8-1)
+```
+````
+````{admonition} BreadBoard
+:class: info
+- lot de 5 grandes breadboards
+- clipsables
+- 830 points de contact
+- 20€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81qWyZbouPL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/AZDelivery-Breadboard-contacts-Arduino-compris/dp/B07VCG6Q68/ref=sr_1_23?keywords=breadboard&qid=1689084055&sr=8-23)
+```
+````
+## Soudure
+
+### Étain
+````{admonition} 0.8mm
+:class: info
+- plus précis
+- noyau colophane
+- 6€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71sPZduKDrL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/colophane-réparation-composants-électriques-électroniques/dp/B0BW8Y66JJ/ref=sr_1_5?__mk_fr_FR=ÅMÅŽÕÑ&crid=OI68FNX8AU33&keywords=étain+soudure&qid=1689084579&sprefix=étain+soudure%2Caps%2C149&sr=8-5)
+```
+````
+````{admonition} 1mm
+:class: info
+- plus épais, idéal pour les pistes large
+- prise en main plus facile
+- 15€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71zSeS+SJ6L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Soudure-Souder-Colophane-Électrique-Bricolage/dp/B0BR9XGX3K/ref=sr_1_8?__mk_fr_FR=ÅMÅŽÕÑ&crid=OI68FNX8AU33&keywords=étain+soudure&qid=1689084579&sprefix=étain+soudure%2Caps%2C149&sr=8-8)
+```
+````
+
+### Flux
+````{admonition} Seringue
+:class: info
+- pâte sans traces
+- applique précise et sans trop de matière
+- 15€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61bUWcOyg1L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/MG-Chemicals-Pâte-nettoyage-Seringue/dp/B00425FUW2/ref=sr_1_6?__mk_fr_FR=ÅMÅŽÕÑ&crid=1E1X0WA4O3O4T&keywords=flux+soudure&qid=1689085091&sprefix=flux+soudure%2Caps%2C198&sr=8-6)
+```
+````
+### Pompes à dessouder
+````{admonition} Manuelle
+:class: info
+- plus abordable
+- rapide d'utilisation
+- 10€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/41Ig8q6pHNL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Fixpoint-51204-Wentronic-Entlötpumpe-Allemagne/dp/B000V8M45K/ref=sr_1_14?__mk_fr_FR=ÅMÅŽÕÑ&crid=DZLZB1X2Y9X7&keywords=pompe+souder&qid=1689085205&sprefix=pompes+souder%2Caps%2C171&sr=8-14)
+```
+````
+````{admonition} Chauffante
+:class: info
+- plus efficace en précision
+- plus contraignant (alimentation secteur et chauffe)
+- 15€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61ONirBemkL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Velleman-VTDESOL3-Pompe-dessouder-ampoule/dp/B005HCQRQ2/ref=sr_1_13?__mk_fr_FR=ÅMÅŽÕÑ&crid=DZLZB1X2Y9X7&keywords=pompe+souder&qid=1689085205&sprefix=pompes+souder%2Caps%2C171&sr=8-13)
+```
+````
+### Tresse à dessouder
+````{admonition} 0.5 à 3mm
+:class: info
+- différents formats
+- polyvalent
+- propre lors de l'utilisation
+- 10€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61pyPqIgqPL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Tresse-dessouder-individuellement-bobine-glitze/dp/B073CVR26V/ref=sr_1_6?keywords=tresse+à+dessouder&qid=1689085481&sprefix=tresse+à+dess%2Caps%2C179&sr=8-6)
+```
+````
+
+## Connecteurs
+
+### Câbles Dupont
+````{admonition} Mâle-Mâle
+:class: info
+- câbles Mâle-Mâle, Mâle-Femelle, Femelle-Femelle
+- très polyvalents
+- 8€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81lyrrBqMIL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Elegoo-Breadboard-Femelle-Longueur-Arduino/dp/B01JD5WCG2/ref=sr_1_5?__mk_fr_FR=ÅMÅŽÕÑ&crid=3UE6F6MJTSK6C&keywords=cable+electronique+male+male&qid=1689085717&sprefix=cable+electroniqu+male+male%2Caps%2C323&sr=8-5)
+```
+````
+### Pins 
+````{admonition} Femelle
+:class: info
+- tailles de séries les plus utilisées
+- bien rangés
+- 15€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/6174lUtZsyL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/VooGenzek-Femelle-Connecteur-Arduino-Empilable/dp/B09NDMVD2C/ref=sr_1_15?__mk_fr_FR=ÅMÅŽÕÑ&crid=YP9X78XH8S4Y&keywords=pins+dupont&qid=1689085939&sprefix=pins+dupont%2Caps%2C154&sr=8-15)
+```
+````
+````{admonition} Mâle
+:class: info
+- 40 pièces de chaque à découper
+- 15€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71H4wWBgrQL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Headers-broches-Breakaway-Connector-Prototype/dp/B07CC4V9ZY/ref=sr_1_57?__mk_fr_FR=ÅMÅŽÕÑ&crid=LFZ7AVWM1CJK&keywords=pins+dupont+mâle&qid=1689086046&sprefix=pins+dupont+mâle%2Caps%2C167&sr=8-57)
+```
+````
+### Bobines de fil
+````{admonition} Rouge noir, grand diamètre
+:class: info
+- câbles de puissance résistants
+- 25€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/819YoAbluOL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/électrique-Silicone-multibrins-Résistant-Température/dp/B08DTMZT58/ref=sr_1_27?__mk_fr_FR=ÅMÅŽÕÑ&crid=1Z1NIBP1EDIB5&keywords=bobine%2Bde%2Bfil%2Bélectronique&qid=1689086302&sprefix=bobines%2Bde%2Bfil%2Bélectronqiue%2Caps%2C130&sr=8-27&th=1)
+```
+````
+````{admonition} Multicolore, petit diamètre
+:class: info
+- câbles de contrôles souples
+- 25€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71afD+6TYbL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/électrique-silicone-différentes-connexion-électronique/dp/B07G72DRKC/ref=sr_1_5?__mk_fr_FR=ÅMÅŽÕÑ&crid=1Z1NIBP1EDIB5&keywords=bobine+de+fil+électronique&qid=1689086302&sprefix=bobines+de+fil+électronqiue%2Caps%2C130&sr=8-5)
+```
+````

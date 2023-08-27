@@ -1,0 +1,99 @@
+# Machines
+
+```{admonition} Avis personnel
+:class: tip
+Nous allons présenter dans un sucis de simplicité, uniquement le matériel que nous conseillons.
+```
+## IMPRIMANTE 3D
+
+`````{tab-set}
+````{tab-item} Bambu Lab
+```{admonition} Avantages
+:class: success
+- très bonne vitesse (2x plus rapide que prusa)
+- très haute qualitée
+```
+
+```{admonition} Incovénients
+:class: failure
+- difficulté à l'entretenir
+- données enoyées en Chine si slicing en ligne (bambu studio)
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Camera couleur ](https://store.bambulab.com/cdn/shop/files/x1-cc_800x.png?v%253D1687315317)](https://store.bambulab.com/products/x1-carbon-combo)
+```
+````
+
+````{tab-item} Prusa MK4
+```{admonition} Avantages
+:class: success
+- bonne vitesse
+- open source
+- simplicité de réparation
+- communauté très active
+```
+
+```{admonition} Inconvénients
+:class: failure
+- vitesse inférieure
+- maintenance plus régulière mais plus simple
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ ArduCam ](https://cdn.prusa3d.com/content/images/product/default/5508.jpg)](https://blog.prusa3d.com/announcing-original-prusa-mk4_76585/?_gl=1*1ts89q0*_ga*NTEyOTE5OTUxLjE2ODg5OTg3MTU.*_ga_3HK7B7RT5V*MTY4ODk5ODcxNS4xLjEuMTY4ODk5ODcyNi41MC4wLjA.)
+```
+````
+`````
+
+
+## Découpeuse laser
+
+```{admonition} Avantages
+:class: success
+- Légère
+- Portable
+- Simplicité d'utilisation
+- Puissance/Consommation
+
+```
+
+```{admonition} Défaults
+:class: failure
+- Taille limitée
+- Découpe limitée
+```
+
+```{admonition} Infographie
+:class: quote
+:collapsible: close
+[![Voltera V-One](https://cdn.shopify.com/s/files/1/0467/7985/9095/t/45/assets/kv-1666006222908.jpg?v%253D1666006226)](https://fr.xtool.com/products/xtool-m1-premiere-machine-de-decoupe-hybride-laser-et-lame-de-bureau-au-monde?utm_source=google&utm_medium=ad&utm_term=maud&utm_content=search&gclid=CjwKCAjw-7OlBhB8EiwAnoOEk8TPgqjR1R4OXgn9b1c9OicJUlNUZgGhDrj7cTXkjDCaQXCWM9KJbhoCnQcQAvD_BwE)
+```
+
+
+
+## CNC PCB : Voltera V-One
+
+```{admonition} Avantages
+:class: success
+- Multi-tête (changement simple)
+- Simple d'utilisation
+- Dépôt d'étains
+- Découpe rapide
+- Service avec support
+```
+
+```{admonition} Défaults
+:class: failure
+- Prix: 5100€ (moyenne basse des machines avec dépot d'étains)
+- Prix de la cartouche (90€)
+```
+```{admonition} Infographie
+:class: quote
+:collapsible: close
+[![Voltera V-One](https://media.elektor.fr/media/catalog/product/cache/571c73a0f414467119e9aa14910e94ab/v/o/voltera_v-one_desktop_pcb_printer_elektor.jpg)](https://www.voltera.io/v-one)
+```

@@ -1,0 +1,20 @@
+# Micro Controler
+
+## ESP 32
+```{admonition} Choix de microcontroler
+:class: info
+L'**ESP 32** est l'esp avec la plus grande puissance de calcul 
+La seule arduino utilisable réellement est l'arduino nano, du à sa petite taille, sinon c'est une question de pin
+```
+Les ESP sont des modèles ayant une connectivité wifi et bluetooth.
+
+En termes de puissance de calcul, l'ESP (ESP8266 et ESP32) est généralement plus puissant qu'un Arduino classique. L'ESP8266 est équipé d'un processeur cadencé à 80 MHz, tandis que l'ESP32 dispose d'un processeur dual-core cadencé à 160 ou 240 MHz, selon le modèle. Comparativement, la plupart des cartes Arduino, comme l'Arduino Uno, fonctionnent à une fréquence de 16 MHz.
+
+
+| ESP32 | ESP8266 |
+| ------- | ------- |
+| [![ESP 32](https://static.cytron.io/image/cache/catalog/products/NODEMCU-ESP32/NODEMCU-ESP32%20(b)-800x800.jpg)](https://docs.rs-online.com/e252/0900766b81637ba4.pdf) | [![ESP8266](https://media.elektor.fr/media/catalog/product/cache/2b4bee73c90e4689bbc4ca8391937af9/1/6/169034-91f-web.jpg)](https://docs.rs-online.com/b456/A700000007466217.pdf) |
+
+
+## Arduino Tiny
+Les cartes Arduino sont largement utilisées dans le domaine de l'électronique et de la robotique. Elles offrent une plateforme de développement conviviale et facile à utiliser pour les débutants et les professionnels. L'Arduino Tiny est une version compacte et économique de la carte Arduino, idéale pour les projets où l'espace est limité. Bien qu'il dispose de moins de broches d'entrée/sortie que les modèles standard, l'Arduino Tiny conserve la plupart des fonctionnalités et de la flexibilité de son grand frère. Il est souvent utilisé dans les applications portables, les jouets électroniques et d'autres projets de petite taille.

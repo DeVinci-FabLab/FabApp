@@ -1,0 +1,43 @@
+# Présentation des accélérateurs à IA
+
+## Présentation
+Un Accélérateur d'IA pour accélérateur d'intelligence artificielle (ou NPU, anglais : Neural Processing Unit) est une catégorie de microprocesseur ou de systèmes de calculs conçu pour accélérer un réseau de neurones artificiels, accélérer des algorithmes de vision industrielle et d'apprentissage automatique pour la robotique, l'internet des objets et autres taches de calculs-intensifs ou de contrôle de capteurs
+
+`````{tab-set}
+
+````{tab-item} Orange PI Stick Lite
+
+```{admonition} Avantages
+:class: success
+- 300 mW
+- 20€
+```
+
+```{admonition} Défaults
+:class: failure
+- 0° C to 40° C
+```
+
+| Orange Stick |
+| ------ | 
+| [![Orange Stick image](https://m.media-amazon.com/images/I/41uGPVfc2PL.jpg)](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-AI-Stick-Lite.html)|
+
+````
+
+````{tab-item} Google Coral
+```{admonition} Avantages
+:class: success
+- Peut monter à 2W
+```
+
+```{admonition} Défaults
+:class: failure
+- 0° C to 35° C
+- 60€
+```
+| Coral |
+| ------ | 
+| [![Coral stick Image](https://lh3.googleusercontent.com/vvBAqSnXyg3h9yS0JLyVehhV-e__3NFbZ6q7Ft-rEZp-9wDTVZ49yjuYJwfa4jQZ-RVnChHMr-DDC0T_fTxVyQg3iBMD-icMQooD6A=w2000-rw)](https://coral.ai/products/accelerator/) |
+````
+`````
+

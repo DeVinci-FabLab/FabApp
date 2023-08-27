@@ -1,0 +1,30 @@
+# Généralités
+
+On peut distinguer plusieurs type de cartes:
+- **Raspberry pi like**
+- **Carte avec gpu intégré**
+
+
+```{admonition} Raspberry pi like
+:class: info
+Les raspberry pi sont principalement utilisées pour permettre l'utilisation de pc/server de manière **portable** **légère** et **simple**.
+Les point clés recherché sont souvent:
+- La qualité du **processeur**
+- La quantité de la **mémoire**
+- La qualité de la **mémoire** (si ppossible DDR4)A
+- La **taille**
+- Le nombre de **connectique**
+```
+Il peur être intéréssant de travailler avec des computes modules.
+
+```{admonition} Card wit gpu
+:class: info
+Ces cartes viennent remplacer les cartes précédentes lorsque celles-ci n'ont pas assez de puissance graphique.
+Elles utilisent notamment des gpu.
+On recherche alors:
+- Une **VRAM** importante
+- Une **taille** résonnable
+- Un prix **correct**
+```
+
+

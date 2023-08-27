@@ -1,0 +1,130 @@
+# Matériaux
+
+## Fixations
+
+### Visserie
+````{admonition} Vis M2 M3 M4 M5
+:class: info
+- bon démarage pour différents usages
+- vendues avec accessoires (écrous, rondelles, etc.)
+- 25€ pour 940 pièces
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81zQEBL-gGL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/VIGRUE-940Pièces-inoxydable-Rondelles-Rangement/dp/B08331MJNK/ref=sr_1_14?__mk_fr_FR=ÅMÅŽÕÑ&crid=3E8XS425B4H4E&keywords=Visserie&qid=1689069714&sprefix=visserie%2Caps%2C155&sr=8-14)
+```
+````
+````{admonition} Vis à bois
+:class: info
+- vis autorodeuses 
+- 420 pièces
+- pièces en acier carbone
+- 15€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81mS-2a+0BL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Autotaraudeuses-Autoforeuse-Croisée-Carbone-Cloisons/dp/B0C32S164S/ref=sr_1_6?__mk_fr_FR=ÅMÅŽÕÑ&crid=3JU7WECL3UED8&keywords=Visserie+à+bois&qid=1689069860&sprefix=visserie+à+bois%2Caps%2C155&sr=8-6)
+```
+````
+
+### Adhésifs
+````{admonition} scotch classique
+:class: info
+- très polyvalent
+- lot de 3
+- résistant pour une utilisation normale (surtout carton, papier, quelques bois)
+- 4€ pièce
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61qUtPT1jGS._AC_UL800_QL65_.jpg)](https://www.amazon.fr/UHU-Rollafix-adhésif-demballage-66mx50mm/dp/B095HLSPV9/ref=sr_1_7?keywords=scotch+demenagement&qid=1689079959&sprefix=scoth%2Caps%2C182&sr=8-7)
+```
+````
+````{admonition} scotch de peintre
+:class: info
+- lot de 7
+- se retirent sans laisser de traces
+- parfait pour marquer des guides de découpe
+- 3€ pièce
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/81Z+bsdclqL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Hinrichs-bande-masquage-rouleaux-peinture/dp/B07VD5LM53/ref=sr_1_32?__mk_fr_FR=ÅMÅŽÕÑ&crid=3W0PBZV9EI67Y&keywords=scotch+peintre&qid=1689080102&sprefix=scotch+peintre%2Caps%2C176&sr=8-32)
+```
+````
+````{admonition} Gaffer
+:class: info
+- 5 rouleaux
+- résistant à l'eau
+- très bonne accroche
+- 25€
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71xOqKjPhHS._AC_UL800_QL65_.jpg)](https://www.amazon.fr/supérieure-réparation-étanchéité-étiquetage-damélioration/dp/B0914XZ882/ref=sr_1_24?__mk_fr_FR=ÅMÅŽÕÑ&crid=RS8BMWKRKRHN&keywords=adhésif&qid=1689069965&sprefix=adhésif%2Caps%2C141&sr=8-24)
+```
+````
+````{admonition} Scotch double face
+:class: info
+- 5m
+- bonne adhérence
+- imperméable
+- légèrement épais
+- 10€ pièce
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61Hoa2uOH5L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Ruban-adhésif-double-face-performance/dp/B08C4SFBKV/ref=sr_1_16?keywords=scotch%2Bdouble%2Bface&qid=1689080194&sprefix=scotch%2Bdo%2Caps%2C235&sr=8-16&th=1)
+```
+````
+````{admonition} Scotch d'électronicien
+:class: info
+- différentes couleurs pour le marquage
+- isolant
+- bonne adhérence
+- 1€ pièce
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/714kF-f1DEL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/ERKO-disolation-électrique-multicolore-électriques/dp/B08X9Z5HCH/ref=sr_1_6?keywords=scotch+électrique&qid=1689080547&sprefix=scotch+électr%2Caps%2C168&sr=8-6)
+```
+````
+
+## Bois
+
+````{admonition} Mdf 3mm
+:class: info
+- dimensions A3
+- parfait pour la découpe laser ou la gravure
+- bonne qualité de bois
+- 50€ les 30
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/71hpTUeKd6L._AC_UL800_QL65_.jpg)](https://www.amazon.fr/30-MDF-Feuille-Chantournée-Chantourner/dp/B075QMPZCZ/ref=sr_1_5?__mk_fr_FR=ÅMÅŽÕÑ&crid=AK3WW02P4JGY&keywords=mdf%2B3mm&qid=1689080721&sprefix=mdf%2B3mm%2Caps%2C176&sr=8-5&th=1)
+```
+````
+
+
+## Plastique
+
+````{admonition} Plaques de plexiglass
+:class: info
+- idéal pour la découpe laser
+- 1 ou 3mm d'épaisseur
+- 15€ les 10
+
+```{admonition} Infographie
+:class: quote
+:collapsible: 
+[![ Image ](https://m.media-amazon.com/images/I/61XSUknGkTL._AC_UL800_QL65_.jpg)](https://www.amazon.fr/Langaelex-Transparente-Transparent-Remplacement-laffichage/dp/B08F4Z9RRQ/ref=sr_1_5?crid=1JOWBARY3B70V&keywords=plaque%2Bde%2Bplexiglass&qid=1689081273&sprefix=plaques%2Bde%2Bplexi%2Caps%2C151&sr=8-5&th=1)
+```
+````
