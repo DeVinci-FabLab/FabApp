@@ -1,9 +1,0 @@
-# nox elements
-.nox
-noxfile.py
-pyproject.toml
-
-# py elements
-__pycache__
-.env
-alembic.ini
